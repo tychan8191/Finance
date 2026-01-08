@@ -68,7 +68,7 @@ def cumulative_return(position, prices):
 alt = cumulative_return(df['signal'], df['Adj Close'])
 figure5 = plt.figure(figsize = figs)
 alt.plot()
-
+print(fi)
 #Comment these out to show certain figures
 #plt.close(figure1)
 plt.close(figure2)
