@@ -1,0 +1,3 @@
+signal_type,strategy_name,underlying,timestamp,exit_reason,exit_pct,urgency,notes
+ENTRY,KRE_BANKS_CALL_SPREAD,KRE,2024-11-01T16:00:00,,1.0,4,Entry conditions met for KRE_BANKS_CALL_SPREAD
+EXIT_FULL,KRE_BANKS_CALL_SPREAD,KRE,2024-11-06T16:00:00,TAKE_PROFIT,1.0,4,Take profit triggered: stock_price_above at 60

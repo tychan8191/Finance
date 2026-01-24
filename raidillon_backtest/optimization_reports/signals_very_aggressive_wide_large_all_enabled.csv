@@ -1,0 +1,2 @@
+signal_type,strategy_name,underlying,timestamp,exit_reason,exit_pct,urgency,notes
+ENTRY,MSFT_EARNINGS_CALL_SPREAD,MSFT,2024-10-25T16:00:00,,1.0,3,Entry conditions met for MSFT_EARNINGS_CALL_SPREAD

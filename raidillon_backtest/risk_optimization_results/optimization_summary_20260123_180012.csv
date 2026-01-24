@@ -1,0 +1,1 @@
+config_name,risk_scenario,strike_scenario,sizing_scenario,strategy_scenario,success,total_return,max_drawdown,sharpe_ratio,win_rate,num_trades,circuit_breaker

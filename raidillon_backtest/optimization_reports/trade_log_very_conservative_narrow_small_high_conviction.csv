@@ -1,0 +1,3 @@
+timestamp,action,position_id,strategy,underlying,premium,commission,cash_after,nav_after,close_value,realized_pnl,reason
+2024-10-25T16:00:00,OPEN,c53ba7ca,MSFT_EARNINGS_CALL_SPREAD,MSFT,-166.0,2.6,10163.4,10163.4,,,
+2024-12-13T16:00:00,CLOSE,c53ba7ca,MSFT_EARNINGS_CALL_SPREAD,MSFT,,2.6,12160.8,12160.8,2000.0,1828.8,BACKTEST_END

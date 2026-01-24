@@ -1,0 +1,41 @@
+======================================================================
+RAIDILLON BACKTEST REPORT
+======================================================================
+
+Period: 2024-10-14 to 2024-12-15
+Variant: BASE
+Initial Capital: $10,000.00
+
+----------------------------------------------------------------------
+PERFORMANCE SUMMARY
+----------------------------------------------------------------------
+Final NAV:        $11,841.60
+Total Return:     +18.42%
+Max Drawdown:     4.22%
+Sharpe Ratio:     4.06
+Win Rate:         33.3%
+Total Trades:     3
+
+----------------------------------------------------------------------
+TRADE LOG
+----------------------------------------------------------------------
+  2024-10-21 | OPEN  | VLO_EARNINGS_CALL_SPREAD       | Premium: $-545.00
+  2024-10-23 | CLOSE | VLO_EARNINGS_CALL_SPREAD       | P&L: $-235.60 (STOP_LOSS)
+  2024-10-25 | OPEN  | MSFT_EARNINGS_CALL_SPREAD      | Premium: $-166.00
+  2024-11-01 | OPEN  | KRE_BANKS_CALL_SPREAD          | Premium: $-351.00
+  2024-11-06 | CLOSE | KRE_BANKS_CALL_SPREAD          | P&L: $+124.40 (TAKE_PROFIT)
+  2024-11-08 | CLOSE | MSFT_EARNINGS_CALL_SPREAD      | P&L: $-171.20 (TIME_STOP)
+
+----------------------------------------------------------------------
+SIGNALS LOG
+----------------------------------------------------------------------
+  2024-10-21 | ENTRY        | VLO_EARNINGS_CALL_SPREAD
+  2024-10-23 | EXIT_FULL    | VLO_EARNINGS_CALL_SPREAD
+  2024-10-25 | ENTRY        | MSFT_EARNINGS_CALL_SPREAD
+  2024-11-01 | ENTRY        | KRE_BANKS_CALL_SPREAD
+  2024-11-06 | EXIT_FULL    | KRE_BANKS_CALL_SPREAD
+  2024-11-08 | EXIT_FULL    | MSFT_EARNINGS_CALL_SPREAD
+
+======================================================================
+END OF REPORT
+======================================================================

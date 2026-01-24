@@ -1,0 +1,3508 @@
+[
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_001_very_aggressive_base_small_all_enabled.yaml",
+    "final_nav": 15901.4,
+    "total_return": 59.01,
+    "max_drawdown": 3.41,
+    "sharpe_ratio": 5.51,
+    "win_rate": 60.0,
+    "num_trades": 5,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT"
+    ],
+    "config_name": "very_aggressive_base_small_all_enabled",
+    "risk_scenario": "very_aggressive",
+    "strike_scenario": "base",
+    "sizing_scenario": "small",
+    "strategy_scenario": "all_enabled",
+    "risk_params": {
+      "max_position_loss_pct": 0.08,
+      "max_aggregate_premium_pct": 0.35,
+      "circuit_breaker_weekly_drawdown": 0.1
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_002_very_aggressive_base_small_high_conviction.yaml",
+    "final_nav": 11841.6,
+    "total_return": 18.42,
+    "max_drawdown": 4.22,
+    "sharpe_ratio": 4.06,
+    "win_rate": 33.3,
+    "num_trades": 3,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT"
+    ],
+    "config_name": "very_aggressive_base_small_high_conviction",
+    "risk_scenario": "very_aggressive",
+    "strike_scenario": "base",
+    "sizing_scenario": "small",
+    "strategy_scenario": "high_conviction",
+    "risk_params": {
+      "max_position_loss_pct": 0.08,
+      "max_aggregate_premium_pct": 0.35,
+      "circuit_breaker_weekly_drawdown": 0.1
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_003_very_aggressive_base_small_msft_only.yaml",
+    "final_nav": 10160.8,
+    "total_return": 1.61,
+    "max_drawdown": 5.01,
+    "sharpe_ratio": 0.7,
+    "win_rate": 0.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT"
+    ],
+    "config_name": "very_aggressive_base_small_msft_only",
+    "risk_scenario": "very_aggressive",
+    "strike_scenario": "base",
+    "sizing_scenario": "small",
+    "strategy_scenario": "msft_only",
+    "risk_params": {
+      "max_position_loss_pct": 0.08,
+      "max_aggregate_premium_pct": 0.35,
+      "circuit_breaker_weekly_drawdown": 0.1
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_004_very_aggressive_base_normal_all_enabled.yaml",
+    "final_nav": 11176.0,
+    "total_return": 11.76,
+    "max_drawdown": 8.75,
+    "sharpe_ratio": 2.16,
+    "win_rate": 0.0,
+    "num_trades": 2,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "AMD_EARNINGS_CALL_SPREAD",
+      "MPC_EARNINGS_CALL_SPREAD",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "very_aggressive_base_normal_all_enabled",
+    "risk_scenario": "very_aggressive",
+    "strike_scenario": "base",
+    "sizing_scenario": "normal",
+    "strategy_scenario": "all_enabled",
+    "risk_params": {
+      "max_position_loss_pct": 0.08,
+      "max_aggregate_premium_pct": 0.35,
+      "circuit_breaker_weekly_drawdown": 0.1
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_005_very_aggressive_base_normal_high_conviction.yaml",
+    "final_nav": 11176.0,
+    "total_return": 11.76,
+    "max_drawdown": 8.75,
+    "sharpe_ratio": 2.16,
+    "win_rate": 0.0,
+    "num_trades": 2,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "very_aggressive_base_normal_high_conviction",
+    "risk_scenario": "very_aggressive",
+    "strike_scenario": "base",
+    "sizing_scenario": "normal",
+    "strategy_scenario": "high_conviction",
+    "risk_params": {
+      "max_position_loss_pct": 0.08,
+      "max_aggregate_premium_pct": 0.35,
+      "circuit_breaker_weekly_drawdown": 0.1
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_006_very_aggressive_base_normal_msft_only.yaml",
+    "final_nav": 10321.6,
+    "total_return": 3.22,
+    "max_drawdown": 9.4,
+    "sharpe_ratio": 0.79,
+    "win_rate": 0.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT"
+    ],
+    "config_name": "very_aggressive_base_normal_msft_only",
+    "risk_scenario": "very_aggressive",
+    "strike_scenario": "base",
+    "sizing_scenario": "normal",
+    "strategy_scenario": "msft_only",
+    "risk_params": {
+      "max_position_loss_pct": 0.08,
+      "max_aggregate_premium_pct": 0.35,
+      "circuit_breaker_weekly_drawdown": 0.1
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_007_very_aggressive_base_large_all_enabled.yaml",
+    "final_nav": 11256.4,
+    "total_return": 12.56,
+    "max_drawdown": 10.63,
+    "sharpe_ratio": 2.03,
+    "win_rate": 0.0,
+    "num_trades": 2,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "AMD_EARNINGS_CALL_SPREAD",
+      "MPC_EARNINGS_CALL_SPREAD",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "very_aggressive_base_large_all_enabled",
+    "risk_scenario": "very_aggressive",
+    "strike_scenario": "base",
+    "sizing_scenario": "large",
+    "strategy_scenario": "all_enabled",
+    "risk_params": {
+      "max_position_loss_pct": 0.08,
+      "max_aggregate_premium_pct": 0.35,
+      "circuit_breaker_weekly_drawdown": 0.1
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_008_very_aggressive_base_large_high_conviction.yaml",
+    "final_nav": 11256.4,
+    "total_return": 12.56,
+    "max_drawdown": 10.63,
+    "sharpe_ratio": 2.03,
+    "win_rate": 0.0,
+    "num_trades": 2,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "very_aggressive_base_large_high_conviction",
+    "risk_scenario": "very_aggressive",
+    "strike_scenario": "base",
+    "sizing_scenario": "large",
+    "strategy_scenario": "high_conviction",
+    "risk_params": {
+      "max_position_loss_pct": 0.08,
+      "max_aggregate_premium_pct": 0.35,
+      "circuit_breaker_weekly_drawdown": 0.1
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_009_very_aggressive_base_large_msft_only.yaml",
+    "final_nav": 15402.0,
+    "total_return": 54.02,
+    "max_drawdown": 10.72,
+    "sharpe_ratio": 1.57,
+    "win_rate": 100.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": true,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT"
+    ],
+    "config_name": "very_aggressive_base_large_msft_only",
+    "risk_scenario": "very_aggressive",
+    "strike_scenario": "base",
+    "sizing_scenario": "large",
+    "strategy_scenario": "msft_only",
+    "risk_params": {
+      "max_position_loss_pct": 0.08,
+      "max_aggregate_premium_pct": 0.35,
+      "circuit_breaker_weekly_drawdown": 0.1
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_010_very_aggressive_narrow_small_all_enabled.yaml",
+    "final_nav": 13414.4,
+    "total_return": 34.14,
+    "max_drawdown": 3.8,
+    "sharpe_ratio": 4.74,
+    "win_rate": 60.0,
+    "num_trades": 5,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT"
+    ],
+    "config_name": "very_aggressive_narrow_small_all_enabled",
+    "risk_scenario": "very_aggressive",
+    "strike_scenario": "narrow",
+    "sizing_scenario": "small",
+    "strategy_scenario": "all_enabled",
+    "risk_params": {
+      "max_position_loss_pct": 0.08,
+      "max_aggregate_premium_pct": 0.35,
+      "circuit_breaker_weekly_drawdown": 0.1
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_011_very_aggressive_narrow_small_high_conviction.yaml",
+    "final_nav": 11483.6,
+    "total_return": 14.84,
+    "max_drawdown": 4.26,
+    "sharpe_ratio": 3.69,
+    "win_rate": 33.3,
+    "num_trades": 3,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT"
+    ],
+    "config_name": "very_aggressive_narrow_small_high_conviction",
+    "risk_scenario": "very_aggressive",
+    "strike_scenario": "narrow",
+    "sizing_scenario": "small",
+    "strategy_scenario": "high_conviction",
+    "risk_params": {
+      "max_position_loss_pct": 0.08,
+      "max_aggregate_premium_pct": 0.35,
+      "circuit_breaker_weekly_drawdown": 0.1
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_012_very_aggressive_narrow_small_msft_only.yaml",
+    "final_nav": 10160.8,
+    "total_return": 1.61,
+    "max_drawdown": 5.01,
+    "sharpe_ratio": 0.7,
+    "win_rate": 0.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT"
+    ],
+    "config_name": "very_aggressive_narrow_small_msft_only",
+    "risk_scenario": "very_aggressive",
+    "strike_scenario": "narrow",
+    "sizing_scenario": "small",
+    "strategy_scenario": "msft_only",
+    "risk_params": {
+      "max_position_loss_pct": 0.08,
+      "max_aggregate_premium_pct": 0.35,
+      "circuit_breaker_weekly_drawdown": 0.1
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_013_very_aggressive_narrow_normal_all_enabled.yaml",
+    "final_nav": 11076.0,
+    "total_return": 10.76,
+    "max_drawdown": 8.82,
+    "sharpe_ratio": 2.07,
+    "win_rate": 0.0,
+    "num_trades": 2,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "AMD_EARNINGS_CALL_SPREAD",
+      "MPC_EARNINGS_CALL_SPREAD",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "very_aggressive_narrow_normal_all_enabled",
+    "risk_scenario": "very_aggressive",
+    "strike_scenario": "narrow",
+    "sizing_scenario": "normal",
+    "strategy_scenario": "all_enabled",
+    "risk_params": {
+      "max_position_loss_pct": 0.08,
+      "max_aggregate_premium_pct": 0.35,
+      "circuit_breaker_weekly_drawdown": 0.1
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_014_very_aggressive_narrow_normal_high_conviction.yaml",
+    "final_nav": 11076.0,
+    "total_return": 10.76,
+    "max_drawdown": 8.82,
+    "sharpe_ratio": 2.07,
+    "win_rate": 0.0,
+    "num_trades": 2,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "very_aggressive_narrow_normal_high_conviction",
+    "risk_scenario": "very_aggressive",
+    "strike_scenario": "narrow",
+    "sizing_scenario": "normal",
+    "strategy_scenario": "high_conviction",
+    "risk_params": {
+      "max_position_loss_pct": 0.08,
+      "max_aggregate_premium_pct": 0.35,
+      "circuit_breaker_weekly_drawdown": 0.1
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_015_very_aggressive_narrow_normal_msft_only.yaml",
+    "final_nav": 10321.6,
+    "total_return": 3.22,
+    "max_drawdown": 9.4,
+    "sharpe_ratio": 0.79,
+    "win_rate": 0.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT"
+    ],
+    "config_name": "very_aggressive_narrow_normal_msft_only",
+    "risk_scenario": "very_aggressive",
+    "strike_scenario": "narrow",
+    "sizing_scenario": "normal",
+    "strategy_scenario": "msft_only",
+    "risk_params": {
+      "max_position_loss_pct": 0.08,
+      "max_aggregate_premium_pct": 0.35,
+      "circuit_breaker_weekly_drawdown": 0.1
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_016_very_aggressive_narrow_large_all_enabled.yaml",
+    "final_nav": 16156.4,
+    "total_return": 61.56,
+    "max_drawdown": 10.08,
+    "sharpe_ratio": 3.37,
+    "win_rate": 50.0,
+    "num_trades": 2,
+    "circuit_breaker_hit": true,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "AMD_EARNINGS_CALL_SPREAD",
+      "MPC_EARNINGS_CALL_SPREAD",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "very_aggressive_narrow_large_all_enabled",
+    "risk_scenario": "very_aggressive",
+    "strike_scenario": "narrow",
+    "sizing_scenario": "large",
+    "strategy_scenario": "all_enabled",
+    "risk_params": {
+      "max_position_loss_pct": 0.08,
+      "max_aggregate_premium_pct": 0.35,
+      "circuit_breaker_weekly_drawdown": 0.1
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_017_very_aggressive_narrow_large_high_conviction.yaml",
+    "final_nav": 16156.4,
+    "total_return": 61.56,
+    "max_drawdown": 10.08,
+    "sharpe_ratio": 3.37,
+    "win_rate": 50.0,
+    "num_trades": 2,
+    "circuit_breaker_hit": true,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "very_aggressive_narrow_large_high_conviction",
+    "risk_scenario": "very_aggressive",
+    "strike_scenario": "narrow",
+    "sizing_scenario": "large",
+    "strategy_scenario": "high_conviction",
+    "risk_params": {
+      "max_position_loss_pct": 0.08,
+      "max_aggregate_premium_pct": 0.35,
+      "circuit_breaker_weekly_drawdown": 0.1
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_018_very_aggressive_narrow_large_msft_only.yaml",
+    "final_nav": 15402.0,
+    "total_return": 54.02,
+    "max_drawdown": 10.72,
+    "sharpe_ratio": 1.57,
+    "win_rate": 100.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": true,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT"
+    ],
+    "config_name": "very_aggressive_narrow_large_msft_only",
+    "risk_scenario": "very_aggressive",
+    "strike_scenario": "narrow",
+    "sizing_scenario": "large",
+    "strategy_scenario": "msft_only",
+    "risk_params": {
+      "max_position_loss_pct": 0.08,
+      "max_aggregate_premium_pct": 0.35,
+      "circuit_breaker_weekly_drawdown": 0.1
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_019_very_aggressive_wide_small_all_enabled.yaml",
+    "final_nav": 11561.2,
+    "total_return": 15.61,
+    "max_drawdown": 4.56,
+    "sharpe_ratio": 3.59,
+    "win_rate": 50.0,
+    "num_trades": 2,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "VLO_EARNINGS_CALL_SPREAD",
+      "AMD_EARNINGS_CALL_SPREAD",
+      "MPC_EARNINGS_CALL_SPREAD"
+    ],
+    "config_name": "very_aggressive_wide_small_all_enabled",
+    "risk_scenario": "very_aggressive",
+    "strike_scenario": "wide",
+    "sizing_scenario": "small",
+    "strategy_scenario": "all_enabled",
+    "risk_params": {
+      "max_position_loss_pct": 0.08,
+      "max_aggregate_premium_pct": 0.35,
+      "circuit_breaker_weekly_drawdown": 0.1
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_020_very_aggressive_wide_small_high_conviction.yaml",
+    "final_nav": 11561.2,
+    "total_return": 15.61,
+    "max_drawdown": 4.56,
+    "sharpe_ratio": 3.59,
+    "win_rate": 50.0,
+    "num_trades": 2,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "VLO_EARNINGS_CALL_SPREAD"
+    ],
+    "config_name": "very_aggressive_wide_small_high_conviction",
+    "risk_scenario": "very_aggressive",
+    "strike_scenario": "wide",
+    "sizing_scenario": "small",
+    "strategy_scenario": "high_conviction",
+    "risk_params": {
+      "max_position_loss_pct": 0.08,
+      "max_aggregate_premium_pct": 0.35,
+      "circuit_breaker_weekly_drawdown": 0.1
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_021_very_aggressive_wide_small_msft_only.yaml",
+    "final_nav": 10160.8,
+    "total_return": 1.61,
+    "max_drawdown": 5.01,
+    "sharpe_ratio": 0.7,
+    "win_rate": 0.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT"
+    ],
+    "config_name": "very_aggressive_wide_small_msft_only",
+    "risk_scenario": "very_aggressive",
+    "strike_scenario": "wide",
+    "sizing_scenario": "small",
+    "strategy_scenario": "msft_only",
+    "risk_params": {
+      "max_position_loss_pct": 0.08,
+      "max_aggregate_premium_pct": 0.35,
+      "circuit_breaker_weekly_drawdown": 0.1
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_022_very_aggressive_wide_normal_all_enabled.yaml",
+    "final_nav": 10321.6,
+    "total_return": 3.22,
+    "max_drawdown": 9.4,
+    "sharpe_ratio": 0.79,
+    "win_rate": 0.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "VLO_EARNINGS_CALL_SPREAD",
+      "AMD_EARNINGS_CALL_SPREAD",
+      "MPC_EARNINGS_CALL_SPREAD",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "very_aggressive_wide_normal_all_enabled",
+    "risk_scenario": "very_aggressive",
+    "strike_scenario": "wide",
+    "sizing_scenario": "normal",
+    "strategy_scenario": "all_enabled",
+    "risk_params": {
+      "max_position_loss_pct": 0.08,
+      "max_aggregate_premium_pct": 0.35,
+      "circuit_breaker_weekly_drawdown": 0.1
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_023_very_aggressive_wide_normal_high_conviction.yaml",
+    "final_nav": 10321.6,
+    "total_return": 3.22,
+    "max_drawdown": 9.4,
+    "sharpe_ratio": 0.79,
+    "win_rate": 0.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "VLO_EARNINGS_CALL_SPREAD",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "very_aggressive_wide_normal_high_conviction",
+    "risk_scenario": "very_aggressive",
+    "strike_scenario": "wide",
+    "sizing_scenario": "normal",
+    "strategy_scenario": "high_conviction",
+    "risk_params": {
+      "max_position_loss_pct": 0.08,
+      "max_aggregate_premium_pct": 0.35,
+      "circuit_breaker_weekly_drawdown": 0.1
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_024_very_aggressive_wide_normal_msft_only.yaml",
+    "final_nav": 10321.6,
+    "total_return": 3.22,
+    "max_drawdown": 9.4,
+    "sharpe_ratio": 0.79,
+    "win_rate": 0.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT"
+    ],
+    "config_name": "very_aggressive_wide_normal_msft_only",
+    "risk_scenario": "very_aggressive",
+    "strike_scenario": "wide",
+    "sizing_scenario": "normal",
+    "strategy_scenario": "msft_only",
+    "risk_params": {
+      "max_position_loss_pct": 0.08,
+      "max_aggregate_premium_pct": 0.35,
+      "circuit_breaker_weekly_drawdown": 0.1
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_025_very_aggressive_wide_large_all_enabled.yaml",
+    "final_nav": 15402.0,
+    "total_return": 54.02,
+    "max_drawdown": 10.72,
+    "sharpe_ratio": 1.57,
+    "win_rate": 100.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": true,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "VLO_EARNINGS_CALL_SPREAD",
+      "AMD_EARNINGS_CALL_SPREAD",
+      "MPC_EARNINGS_CALL_SPREAD",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "very_aggressive_wide_large_all_enabled",
+    "risk_scenario": "very_aggressive",
+    "strike_scenario": "wide",
+    "sizing_scenario": "large",
+    "strategy_scenario": "all_enabled",
+    "risk_params": {
+      "max_position_loss_pct": 0.08,
+      "max_aggregate_premium_pct": 0.35,
+      "circuit_breaker_weekly_drawdown": 0.1
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_026_very_aggressive_wide_large_high_conviction.yaml",
+    "final_nav": 15402.0,
+    "total_return": 54.02,
+    "max_drawdown": 10.72,
+    "sharpe_ratio": 1.57,
+    "win_rate": 100.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": true,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "VLO_EARNINGS_CALL_SPREAD",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "very_aggressive_wide_large_high_conviction",
+    "risk_scenario": "very_aggressive",
+    "strike_scenario": "wide",
+    "sizing_scenario": "large",
+    "strategy_scenario": "high_conviction",
+    "risk_params": {
+      "max_position_loss_pct": 0.08,
+      "max_aggregate_premium_pct": 0.35,
+      "circuit_breaker_weekly_drawdown": 0.1
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_027_very_aggressive_wide_large_msft_only.yaml",
+    "final_nav": 15402.0,
+    "total_return": 54.02,
+    "max_drawdown": 10.72,
+    "sharpe_ratio": 1.57,
+    "win_rate": 100.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": true,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT"
+    ],
+    "config_name": "very_aggressive_wide_large_msft_only",
+    "risk_scenario": "very_aggressive",
+    "strike_scenario": "wide",
+    "sizing_scenario": "large",
+    "strategy_scenario": "msft_only",
+    "risk_params": {
+      "max_position_loss_pct": 0.08,
+      "max_aggregate_premium_pct": 0.35,
+      "circuit_breaker_weekly_drawdown": 0.1
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_028_aggressive_base_small_all_enabled.yaml",
+    "final_nav": 13915.0,
+    "total_return": 39.15,
+    "max_drawdown": 3.58,
+    "sharpe_ratio": 5.32,
+    "win_rate": 50.0,
+    "num_trades": 4,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "MPC_EARNINGS_CALL_SPREAD"
+    ],
+    "config_name": "aggressive_base_small_all_enabled",
+    "risk_scenario": "aggressive",
+    "strike_scenario": "base",
+    "sizing_scenario": "small",
+    "strategy_scenario": "all_enabled",
+    "risk_params": {
+      "max_position_loss_pct": 0.06,
+      "max_aggregate_premium_pct": 0.28,
+      "circuit_breaker_weekly_drawdown": 0.08
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_029_aggressive_base_small_high_conviction.yaml",
+    "final_nav": 11841.6,
+    "total_return": 18.42,
+    "max_drawdown": 4.22,
+    "sharpe_ratio": 4.06,
+    "win_rate": 33.3,
+    "num_trades": 3,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT"
+    ],
+    "config_name": "aggressive_base_small_high_conviction",
+    "risk_scenario": "aggressive",
+    "strike_scenario": "base",
+    "sizing_scenario": "small",
+    "strategy_scenario": "high_conviction",
+    "risk_params": {
+      "max_position_loss_pct": 0.06,
+      "max_aggregate_premium_pct": 0.28,
+      "circuit_breaker_weekly_drawdown": 0.08
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_030_aggressive_base_small_msft_only.yaml",
+    "final_nav": 10160.8,
+    "total_return": 1.61,
+    "max_drawdown": 5.01,
+    "sharpe_ratio": 0.7,
+    "win_rate": 0.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT"
+    ],
+    "config_name": "aggressive_base_small_msft_only",
+    "risk_scenario": "aggressive",
+    "strike_scenario": "base",
+    "sizing_scenario": "small",
+    "strategy_scenario": "msft_only",
+    "risk_params": {
+      "max_position_loss_pct": 0.06,
+      "max_aggregate_premium_pct": 0.28,
+      "circuit_breaker_weekly_drawdown": 0.08
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_031_aggressive_base_normal_all_enabled.yaml",
+    "final_nav": 15176.0,
+    "total_return": 51.76,
+    "max_drawdown": 8.23,
+    "sharpe_ratio": 3.71,
+    "win_rate": 50.0,
+    "num_trades": 2,
+    "circuit_breaker_hit": true,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "AMD_EARNINGS_CALL_SPREAD",
+      "MPC_EARNINGS_CALL_SPREAD",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "aggressive_base_normal_all_enabled",
+    "risk_scenario": "aggressive",
+    "strike_scenario": "base",
+    "sizing_scenario": "normal",
+    "strategy_scenario": "all_enabled",
+    "risk_params": {
+      "max_position_loss_pct": 0.06,
+      "max_aggregate_premium_pct": 0.28,
+      "circuit_breaker_weekly_drawdown": 0.08
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_032_aggressive_base_normal_high_conviction.yaml",
+    "final_nav": 15176.0,
+    "total_return": 51.76,
+    "max_drawdown": 8.23,
+    "sharpe_ratio": 3.71,
+    "win_rate": 50.0,
+    "num_trades": 2,
+    "circuit_breaker_hit": true,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "aggressive_base_normal_high_conviction",
+    "risk_scenario": "aggressive",
+    "strike_scenario": "base",
+    "sizing_scenario": "normal",
+    "strategy_scenario": "high_conviction",
+    "risk_params": {
+      "max_position_loss_pct": 0.06,
+      "max_aggregate_premium_pct": 0.28,
+      "circuit_breaker_weekly_drawdown": 0.08
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_033_aggressive_base_normal_msft_only.yaml",
+    "final_nav": 14321.6,
+    "total_return": 43.22,
+    "max_drawdown": 8.84,
+    "sharpe_ratio": 1.5,
+    "win_rate": 100.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": true,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT"
+    ],
+    "config_name": "aggressive_base_normal_msft_only",
+    "risk_scenario": "aggressive",
+    "strike_scenario": "base",
+    "sizing_scenario": "normal",
+    "strategy_scenario": "msft_only",
+    "risk_params": {
+      "max_position_loss_pct": 0.06,
+      "max_aggregate_premium_pct": 0.28,
+      "circuit_breaker_weekly_drawdown": 0.08
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_034_aggressive_base_large_all_enabled.yaml",
+    "final_nav": 16256.4,
+    "total_return": 62.56,
+    "max_drawdown": 10.0,
+    "sharpe_ratio": 3.51,
+    "win_rate": 50.0,
+    "num_trades": 2,
+    "circuit_breaker_hit": true,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "AMD_EARNINGS_CALL_SPREAD",
+      "MPC_EARNINGS_CALL_SPREAD",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "aggressive_base_large_all_enabled",
+    "risk_scenario": "aggressive",
+    "strike_scenario": "base",
+    "sizing_scenario": "large",
+    "strategy_scenario": "all_enabled",
+    "risk_params": {
+      "max_position_loss_pct": 0.06,
+      "max_aggregate_premium_pct": 0.28,
+      "circuit_breaker_weekly_drawdown": 0.08
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_035_aggressive_base_large_high_conviction.yaml",
+    "final_nav": 16256.4,
+    "total_return": 62.56,
+    "max_drawdown": 10.0,
+    "sharpe_ratio": 3.51,
+    "win_rate": 50.0,
+    "num_trades": 2,
+    "circuit_breaker_hit": true,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "aggressive_base_large_high_conviction",
+    "risk_scenario": "aggressive",
+    "strike_scenario": "base",
+    "sizing_scenario": "large",
+    "strategy_scenario": "high_conviction",
+    "risk_params": {
+      "max_position_loss_pct": 0.06,
+      "max_aggregate_premium_pct": 0.28,
+      "circuit_breaker_weekly_drawdown": 0.08
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_036_aggressive_base_large_msft_only.yaml",
+    "final_nav": 15402.0,
+    "total_return": 54.02,
+    "max_drawdown": 10.6,
+    "sharpe_ratio": 1.66,
+    "win_rate": 100.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": true,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT"
+    ],
+    "config_name": "aggressive_base_large_msft_only",
+    "risk_scenario": "aggressive",
+    "strike_scenario": "base",
+    "sizing_scenario": "large",
+    "strategy_scenario": "msft_only",
+    "risk_params": {
+      "max_position_loss_pct": 0.06,
+      "max_aggregate_premium_pct": 0.28,
+      "circuit_breaker_weekly_drawdown": 0.08
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_037_aggressive_narrow_small_all_enabled.yaml",
+    "final_nav": 13414.4,
+    "total_return": 34.14,
+    "max_drawdown": 3.8,
+    "sharpe_ratio": 4.74,
+    "win_rate": 60.0,
+    "num_trades": 5,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT"
+    ],
+    "config_name": "aggressive_narrow_small_all_enabled",
+    "risk_scenario": "aggressive",
+    "strike_scenario": "narrow",
+    "sizing_scenario": "small",
+    "strategy_scenario": "all_enabled",
+    "risk_params": {
+      "max_position_loss_pct": 0.06,
+      "max_aggregate_premium_pct": 0.28,
+      "circuit_breaker_weekly_drawdown": 0.08
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_038_aggressive_narrow_small_high_conviction.yaml",
+    "final_nav": 11483.6,
+    "total_return": 14.84,
+    "max_drawdown": 4.26,
+    "sharpe_ratio": 3.69,
+    "win_rate": 33.3,
+    "num_trades": 3,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT"
+    ],
+    "config_name": "aggressive_narrow_small_high_conviction",
+    "risk_scenario": "aggressive",
+    "strike_scenario": "narrow",
+    "sizing_scenario": "small",
+    "strategy_scenario": "high_conviction",
+    "risk_params": {
+      "max_position_loss_pct": 0.06,
+      "max_aggregate_premium_pct": 0.28,
+      "circuit_breaker_weekly_drawdown": 0.08
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_039_aggressive_narrow_small_msft_only.yaml",
+    "final_nav": 10160.8,
+    "total_return": 1.61,
+    "max_drawdown": 5.01,
+    "sharpe_ratio": 0.7,
+    "win_rate": 0.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT"
+    ],
+    "config_name": "aggressive_narrow_small_msft_only",
+    "risk_scenario": "aggressive",
+    "strike_scenario": "narrow",
+    "sizing_scenario": "small",
+    "strategy_scenario": "msft_only",
+    "risk_params": {
+      "max_position_loss_pct": 0.06,
+      "max_aggregate_premium_pct": 0.28,
+      "circuit_breaker_weekly_drawdown": 0.08
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_040_aggressive_narrow_normal_all_enabled.yaml",
+    "final_nav": 15076.0,
+    "total_return": 50.76,
+    "max_drawdown": 8.29,
+    "sharpe_ratio": 3.58,
+    "win_rate": 50.0,
+    "num_trades": 2,
+    "circuit_breaker_hit": true,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "AMD_EARNINGS_CALL_SPREAD",
+      "MPC_EARNINGS_CALL_SPREAD",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "aggressive_narrow_normal_all_enabled",
+    "risk_scenario": "aggressive",
+    "strike_scenario": "narrow",
+    "sizing_scenario": "normal",
+    "strategy_scenario": "all_enabled",
+    "risk_params": {
+      "max_position_loss_pct": 0.06,
+      "max_aggregate_premium_pct": 0.28,
+      "circuit_breaker_weekly_drawdown": 0.08
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_041_aggressive_narrow_normal_high_conviction.yaml",
+    "final_nav": 15076.0,
+    "total_return": 50.76,
+    "max_drawdown": 8.29,
+    "sharpe_ratio": 3.58,
+    "win_rate": 50.0,
+    "num_trades": 2,
+    "circuit_breaker_hit": true,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "aggressive_narrow_normal_high_conviction",
+    "risk_scenario": "aggressive",
+    "strike_scenario": "narrow",
+    "sizing_scenario": "normal",
+    "strategy_scenario": "high_conviction",
+    "risk_params": {
+      "max_position_loss_pct": 0.06,
+      "max_aggregate_premium_pct": 0.28,
+      "circuit_breaker_weekly_drawdown": 0.08
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_042_aggressive_narrow_normal_msft_only.yaml",
+    "final_nav": 14321.6,
+    "total_return": 43.22,
+    "max_drawdown": 8.84,
+    "sharpe_ratio": 1.5,
+    "win_rate": 100.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": true,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT"
+    ],
+    "config_name": "aggressive_narrow_normal_msft_only",
+    "risk_scenario": "aggressive",
+    "strike_scenario": "narrow",
+    "sizing_scenario": "normal",
+    "strategy_scenario": "msft_only",
+    "risk_params": {
+      "max_position_loss_pct": 0.06,
+      "max_aggregate_premium_pct": 0.28,
+      "circuit_breaker_weekly_drawdown": 0.08
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_043_aggressive_narrow_large_all_enabled.yaml",
+    "final_nav": 16156.4,
+    "total_return": 61.56,
+    "max_drawdown": 9.96,
+    "sharpe_ratio": 3.51,
+    "win_rate": 50.0,
+    "num_trades": 2,
+    "circuit_breaker_hit": true,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "AMD_EARNINGS_CALL_SPREAD",
+      "MPC_EARNINGS_CALL_SPREAD",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "aggressive_narrow_large_all_enabled",
+    "risk_scenario": "aggressive",
+    "strike_scenario": "narrow",
+    "sizing_scenario": "large",
+    "strategy_scenario": "all_enabled",
+    "risk_params": {
+      "max_position_loss_pct": 0.06,
+      "max_aggregate_premium_pct": 0.28,
+      "circuit_breaker_weekly_drawdown": 0.08
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_044_aggressive_narrow_large_high_conviction.yaml",
+    "final_nav": 16156.4,
+    "total_return": 61.56,
+    "max_drawdown": 9.96,
+    "sharpe_ratio": 3.51,
+    "win_rate": 50.0,
+    "num_trades": 2,
+    "circuit_breaker_hit": true,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "aggressive_narrow_large_high_conviction",
+    "risk_scenario": "aggressive",
+    "strike_scenario": "narrow",
+    "sizing_scenario": "large",
+    "strategy_scenario": "high_conviction",
+    "risk_params": {
+      "max_position_loss_pct": 0.06,
+      "max_aggregate_premium_pct": 0.28,
+      "circuit_breaker_weekly_drawdown": 0.08
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_045_aggressive_narrow_large_msft_only.yaml",
+    "final_nav": 15402.0,
+    "total_return": 54.02,
+    "max_drawdown": 10.6,
+    "sharpe_ratio": 1.66,
+    "win_rate": 100.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": true,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT"
+    ],
+    "config_name": "aggressive_narrow_large_msft_only",
+    "risk_scenario": "aggressive",
+    "strike_scenario": "narrow",
+    "sizing_scenario": "large",
+    "strategy_scenario": "msft_only",
+    "risk_params": {
+      "max_position_loss_pct": 0.06,
+      "max_aggregate_premium_pct": 0.28,
+      "circuit_breaker_weekly_drawdown": 0.08
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_046_aggressive_wide_small_all_enabled.yaml",
+    "final_nav": 10160.8,
+    "total_return": 1.61,
+    "max_drawdown": 5.01,
+    "sharpe_ratio": 0.7,
+    "win_rate": 0.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "VLO_EARNINGS_CALL_SPREAD",
+      "AMD_EARNINGS_CALL_SPREAD",
+      "MPC_EARNINGS_CALL_SPREAD",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "aggressive_wide_small_all_enabled",
+    "risk_scenario": "aggressive",
+    "strike_scenario": "wide",
+    "sizing_scenario": "small",
+    "strategy_scenario": "all_enabled",
+    "risk_params": {
+      "max_position_loss_pct": 0.06,
+      "max_aggregate_premium_pct": 0.28,
+      "circuit_breaker_weekly_drawdown": 0.08
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_047_aggressive_wide_small_high_conviction.yaml",
+    "final_nav": 10160.8,
+    "total_return": 1.61,
+    "max_drawdown": 5.01,
+    "sharpe_ratio": 0.7,
+    "win_rate": 0.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "VLO_EARNINGS_CALL_SPREAD",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "aggressive_wide_small_high_conviction",
+    "risk_scenario": "aggressive",
+    "strike_scenario": "wide",
+    "sizing_scenario": "small",
+    "strategy_scenario": "high_conviction",
+    "risk_params": {
+      "max_position_loss_pct": 0.06,
+      "max_aggregate_premium_pct": 0.28,
+      "circuit_breaker_weekly_drawdown": 0.08
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_048_aggressive_wide_small_msft_only.yaml",
+    "final_nav": 10160.8,
+    "total_return": 1.61,
+    "max_drawdown": 5.01,
+    "sharpe_ratio": 0.7,
+    "win_rate": 0.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT"
+    ],
+    "config_name": "aggressive_wide_small_msft_only",
+    "risk_scenario": "aggressive",
+    "strike_scenario": "wide",
+    "sizing_scenario": "small",
+    "strategy_scenario": "msft_only",
+    "risk_params": {
+      "max_position_loss_pct": 0.06,
+      "max_aggregate_premium_pct": 0.28,
+      "circuit_breaker_weekly_drawdown": 0.08
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_049_aggressive_wide_normal_all_enabled.yaml",
+    "final_nav": 14321.6,
+    "total_return": 43.22,
+    "max_drawdown": 8.84,
+    "sharpe_ratio": 1.5,
+    "win_rate": 100.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": true,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "VLO_EARNINGS_CALL_SPREAD",
+      "AMD_EARNINGS_CALL_SPREAD",
+      "MPC_EARNINGS_CALL_SPREAD",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "aggressive_wide_normal_all_enabled",
+    "risk_scenario": "aggressive",
+    "strike_scenario": "wide",
+    "sizing_scenario": "normal",
+    "strategy_scenario": "all_enabled",
+    "risk_params": {
+      "max_position_loss_pct": 0.06,
+      "max_aggregate_premium_pct": 0.28,
+      "circuit_breaker_weekly_drawdown": 0.08
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_050_aggressive_wide_normal_high_conviction.yaml",
+    "final_nav": 14321.6,
+    "total_return": 43.22,
+    "max_drawdown": 8.84,
+    "sharpe_ratio": 1.5,
+    "win_rate": 100.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": true,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "VLO_EARNINGS_CALL_SPREAD",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "aggressive_wide_normal_high_conviction",
+    "risk_scenario": "aggressive",
+    "strike_scenario": "wide",
+    "sizing_scenario": "normal",
+    "strategy_scenario": "high_conviction",
+    "risk_params": {
+      "max_position_loss_pct": 0.06,
+      "max_aggregate_premium_pct": 0.28,
+      "circuit_breaker_weekly_drawdown": 0.08
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_051_aggressive_wide_normal_msft_only.yaml",
+    "final_nav": 14321.6,
+    "total_return": 43.22,
+    "max_drawdown": 8.84,
+    "sharpe_ratio": 1.5,
+    "win_rate": 100.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": true,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT"
+    ],
+    "config_name": "aggressive_wide_normal_msft_only",
+    "risk_scenario": "aggressive",
+    "strike_scenario": "wide",
+    "sizing_scenario": "normal",
+    "strategy_scenario": "msft_only",
+    "risk_params": {
+      "max_position_loss_pct": 0.06,
+      "max_aggregate_premium_pct": 0.28,
+      "circuit_breaker_weekly_drawdown": 0.08
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_052_aggressive_wide_large_all_enabled.yaml",
+    "final_nav": 15402.0,
+    "total_return": 54.02,
+    "max_drawdown": 10.6,
+    "sharpe_ratio": 1.66,
+    "win_rate": 100.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": true,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "VLO_EARNINGS_CALL_SPREAD",
+      "AMD_EARNINGS_CALL_SPREAD",
+      "MPC_EARNINGS_CALL_SPREAD",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "aggressive_wide_large_all_enabled",
+    "risk_scenario": "aggressive",
+    "strike_scenario": "wide",
+    "sizing_scenario": "large",
+    "strategy_scenario": "all_enabled",
+    "risk_params": {
+      "max_position_loss_pct": 0.06,
+      "max_aggregate_premium_pct": 0.28,
+      "circuit_breaker_weekly_drawdown": 0.08
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_053_aggressive_wide_large_high_conviction.yaml",
+    "final_nav": 15402.0,
+    "total_return": 54.02,
+    "max_drawdown": 10.6,
+    "sharpe_ratio": 1.66,
+    "win_rate": 100.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": true,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "VLO_EARNINGS_CALL_SPREAD",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "aggressive_wide_large_high_conviction",
+    "risk_scenario": "aggressive",
+    "strike_scenario": "wide",
+    "sizing_scenario": "large",
+    "strategy_scenario": "high_conviction",
+    "risk_params": {
+      "max_position_loss_pct": 0.06,
+      "max_aggregate_premium_pct": 0.28,
+      "circuit_breaker_weekly_drawdown": 0.08
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_054_aggressive_wide_large_msft_only.yaml",
+    "final_nav": 15402.0,
+    "total_return": 54.02,
+    "max_drawdown": 10.6,
+    "sharpe_ratio": 1.66,
+    "win_rate": 100.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": true,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT"
+    ],
+    "config_name": "aggressive_wide_large_msft_only",
+    "risk_scenario": "aggressive",
+    "strike_scenario": "wide",
+    "sizing_scenario": "large",
+    "strategy_scenario": "msft_only",
+    "risk_params": {
+      "max_position_loss_pct": 0.06,
+      "max_aggregate_premium_pct": 0.28,
+      "circuit_breaker_weekly_drawdown": 0.08
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_055_base_base_small_all_enabled.yaml",
+    "final_nav": 10160.8,
+    "total_return": 1.61,
+    "max_drawdown": 5.01,
+    "sharpe_ratio": 0.7,
+    "win_rate": 0.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "VLO_EARNINGS_CALL_SPREAD",
+      "AMD_EARNINGS_CALL_SPREAD",
+      "MPC_EARNINGS_CALL_SPREAD",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "base_base_small_all_enabled",
+    "risk_scenario": "base",
+    "strike_scenario": "base",
+    "sizing_scenario": "small",
+    "strategy_scenario": "all_enabled",
+    "risk_params": {
+      "max_position_loss_pct": 0.04,
+      "max_aggregate_premium_pct": 0.2,
+      "circuit_breaker_weekly_drawdown": 0.05
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_056_base_base_small_high_conviction.yaml",
+    "final_nav": 10160.8,
+    "total_return": 1.61,
+    "max_drawdown": 5.01,
+    "sharpe_ratio": 0.7,
+    "win_rate": 0.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "VLO_EARNINGS_CALL_SPREAD",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "base_base_small_high_conviction",
+    "risk_scenario": "base",
+    "strike_scenario": "base",
+    "sizing_scenario": "small",
+    "strategy_scenario": "high_conviction",
+    "risk_params": {
+      "max_position_loss_pct": 0.04,
+      "max_aggregate_premium_pct": 0.2,
+      "circuit_breaker_weekly_drawdown": 0.05
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_057_base_base_small_msft_only.yaml",
+    "final_nav": 10160.8,
+    "total_return": 1.61,
+    "max_drawdown": 5.01,
+    "sharpe_ratio": 0.7,
+    "win_rate": 0.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT"
+    ],
+    "config_name": "base_base_small_msft_only",
+    "risk_scenario": "base",
+    "strike_scenario": "base",
+    "sizing_scenario": "small",
+    "strategy_scenario": "msft_only",
+    "risk_params": {
+      "max_position_loss_pct": 0.04,
+      "max_aggregate_premium_pct": 0.2,
+      "circuit_breaker_weekly_drawdown": 0.05
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_058_base_base_normal_all_enabled.yaml",
+    "final_nav": 14321.6,
+    "total_return": 43.22,
+    "max_drawdown": 8.74,
+    "sharpe_ratio": 1.58,
+    "win_rate": 100.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": true,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "VLO_EARNINGS_CALL_SPREAD",
+      "AMD_EARNINGS_CALL_SPREAD",
+      "MPC_EARNINGS_CALL_SPREAD",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "base_base_normal_all_enabled",
+    "risk_scenario": "base",
+    "strike_scenario": "base",
+    "sizing_scenario": "normal",
+    "strategy_scenario": "all_enabled",
+    "risk_params": {
+      "max_position_loss_pct": 0.04,
+      "max_aggregate_premium_pct": 0.2,
+      "circuit_breaker_weekly_drawdown": 0.05
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_059_base_base_normal_high_conviction.yaml",
+    "final_nav": 14321.6,
+    "total_return": 43.22,
+    "max_drawdown": 8.74,
+    "sharpe_ratio": 1.58,
+    "win_rate": 100.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": true,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "VLO_EARNINGS_CALL_SPREAD",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "base_base_normal_high_conviction",
+    "risk_scenario": "base",
+    "strike_scenario": "base",
+    "sizing_scenario": "normal",
+    "strategy_scenario": "high_conviction",
+    "risk_params": {
+      "max_position_loss_pct": 0.04,
+      "max_aggregate_premium_pct": 0.2,
+      "circuit_breaker_weekly_drawdown": 0.05
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_060_base_base_normal_msft_only.yaml",
+    "final_nav": 14321.6,
+    "total_return": 43.22,
+    "max_drawdown": 8.74,
+    "sharpe_ratio": 1.58,
+    "win_rate": 100.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": true,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT"
+    ],
+    "config_name": "base_base_normal_msft_only",
+    "risk_scenario": "base",
+    "strike_scenario": "base",
+    "sizing_scenario": "normal",
+    "strategy_scenario": "msft_only",
+    "risk_params": {
+      "max_position_loss_pct": 0.04,
+      "max_aggregate_premium_pct": 0.2,
+      "circuit_breaker_weekly_drawdown": 0.05
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_061_base_base_large_all_enabled.yaml",
+    "final_nav": 10826.4,
+    "total_return": 8.26,
+    "max_drawdown": 0.0,
+    "sharpe_ratio": 4.22,
+    "win_rate": 100.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "VLO_EARNINGS_CALL_SPREAD",
+      "MSFT_EARNINGS_CALL_SPREAD",
+      "AMD_EARNINGS_CALL_SPREAD",
+      "MPC_EARNINGS_CALL_SPREAD"
+    ],
+    "config_name": "base_base_large_all_enabled",
+    "risk_scenario": "base",
+    "strike_scenario": "base",
+    "sizing_scenario": "large",
+    "strategy_scenario": "all_enabled",
+    "risk_params": {
+      "max_position_loss_pct": 0.04,
+      "max_aggregate_premium_pct": 0.2,
+      "circuit_breaker_weekly_drawdown": 0.05
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_062_base_base_large_high_conviction.yaml",
+    "final_nav": 10826.4,
+    "total_return": 8.26,
+    "max_drawdown": 0.0,
+    "sharpe_ratio": 4.22,
+    "win_rate": 100.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "VLO_EARNINGS_CALL_SPREAD",
+      "MSFT_EARNINGS_CALL_SPREAD"
+    ],
+    "config_name": "base_base_large_high_conviction",
+    "risk_scenario": "base",
+    "strike_scenario": "base",
+    "sizing_scenario": "large",
+    "strategy_scenario": "high_conviction",
+    "risk_params": {
+      "max_position_loss_pct": 0.04,
+      "max_aggregate_premium_pct": 0.2,
+      "circuit_breaker_weekly_drawdown": 0.05
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_063_base_base_large_msft_only.yaml",
+    "final_nav": 10000.0,
+    "total_return": 0.0,
+    "max_drawdown": 0.0,
+    "sharpe_ratio": 0.0,
+    "win_rate": 0.0,
+    "num_trades": 0,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "MSFT_EARNINGS_CALL_SPREAD"
+    ],
+    "config_name": "base_base_large_msft_only",
+    "risk_scenario": "base",
+    "strike_scenario": "base",
+    "sizing_scenario": "large",
+    "strategy_scenario": "msft_only",
+    "risk_params": {
+      "max_position_loss_pct": 0.04,
+      "max_aggregate_premium_pct": 0.2,
+      "circuit_breaker_weekly_drawdown": 0.05
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_064_base_narrow_small_all_enabled.yaml",
+    "final_nav": 10160.8,
+    "total_return": 1.61,
+    "max_drawdown": 5.01,
+    "sharpe_ratio": 0.7,
+    "win_rate": 0.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "VLO_EARNINGS_CALL_SPREAD",
+      "AMD_EARNINGS_CALL_SPREAD",
+      "MPC_EARNINGS_CALL_SPREAD",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "base_narrow_small_all_enabled",
+    "risk_scenario": "base",
+    "strike_scenario": "narrow",
+    "sizing_scenario": "small",
+    "strategy_scenario": "all_enabled",
+    "risk_params": {
+      "max_position_loss_pct": 0.04,
+      "max_aggregate_premium_pct": 0.2,
+      "circuit_breaker_weekly_drawdown": 0.05
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_065_base_narrow_small_high_conviction.yaml",
+    "final_nav": 10160.8,
+    "total_return": 1.61,
+    "max_drawdown": 5.01,
+    "sharpe_ratio": 0.7,
+    "win_rate": 0.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "VLO_EARNINGS_CALL_SPREAD",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "base_narrow_small_high_conviction",
+    "risk_scenario": "base",
+    "strike_scenario": "narrow",
+    "sizing_scenario": "small",
+    "strategy_scenario": "high_conviction",
+    "risk_params": {
+      "max_position_loss_pct": 0.04,
+      "max_aggregate_premium_pct": 0.2,
+      "circuit_breaker_weekly_drawdown": 0.05
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_066_base_narrow_small_msft_only.yaml",
+    "final_nav": 10160.8,
+    "total_return": 1.61,
+    "max_drawdown": 5.01,
+    "sharpe_ratio": 0.7,
+    "win_rate": 0.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT"
+    ],
+    "config_name": "base_narrow_small_msft_only",
+    "risk_scenario": "base",
+    "strike_scenario": "narrow",
+    "sizing_scenario": "small",
+    "strategy_scenario": "msft_only",
+    "risk_params": {
+      "max_position_loss_pct": 0.04,
+      "max_aggregate_premium_pct": 0.2,
+      "circuit_breaker_weekly_drawdown": 0.05
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_067_base_narrow_normal_all_enabled.yaml",
+    "final_nav": 14321.6,
+    "total_return": 43.22,
+    "max_drawdown": 8.74,
+    "sharpe_ratio": 1.58,
+    "win_rate": 100.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": true,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "VLO_EARNINGS_CALL_SPREAD",
+      "AMD_EARNINGS_CALL_SPREAD",
+      "MPC_EARNINGS_CALL_SPREAD",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "base_narrow_normal_all_enabled",
+    "risk_scenario": "base",
+    "strike_scenario": "narrow",
+    "sizing_scenario": "normal",
+    "strategy_scenario": "all_enabled",
+    "risk_params": {
+      "max_position_loss_pct": 0.04,
+      "max_aggregate_premium_pct": 0.2,
+      "circuit_breaker_weekly_drawdown": 0.05
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_068_base_narrow_normal_high_conviction.yaml",
+    "final_nav": 14321.6,
+    "total_return": 43.22,
+    "max_drawdown": 8.74,
+    "sharpe_ratio": 1.58,
+    "win_rate": 100.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": true,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "VLO_EARNINGS_CALL_SPREAD",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "base_narrow_normal_high_conviction",
+    "risk_scenario": "base",
+    "strike_scenario": "narrow",
+    "sizing_scenario": "normal",
+    "strategy_scenario": "high_conviction",
+    "risk_params": {
+      "max_position_loss_pct": 0.04,
+      "max_aggregate_premium_pct": 0.2,
+      "circuit_breaker_weekly_drawdown": 0.05
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_069_base_narrow_normal_msft_only.yaml",
+    "final_nav": 14321.6,
+    "total_return": 43.22,
+    "max_drawdown": 8.74,
+    "sharpe_ratio": 1.58,
+    "win_rate": 100.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": true,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT"
+    ],
+    "config_name": "base_narrow_normal_msft_only",
+    "risk_scenario": "base",
+    "strike_scenario": "narrow",
+    "sizing_scenario": "normal",
+    "strategy_scenario": "msft_only",
+    "risk_params": {
+      "max_position_loss_pct": 0.04,
+      "max_aggregate_premium_pct": 0.2,
+      "circuit_breaker_weekly_drawdown": 0.05
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_070_base_narrow_large_all_enabled.yaml",
+    "final_nav": 10568.4,
+    "total_return": 5.68,
+    "max_drawdown": 0.0,
+    "sharpe_ratio": 3.49,
+    "win_rate": 100.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "VLO_EARNINGS_CALL_SPREAD",
+      "MSFT_EARNINGS_CALL_SPREAD",
+      "AMD_EARNINGS_CALL_SPREAD",
+      "MPC_EARNINGS_CALL_SPREAD"
+    ],
+    "config_name": "base_narrow_large_all_enabled",
+    "risk_scenario": "base",
+    "strike_scenario": "narrow",
+    "sizing_scenario": "large",
+    "strategy_scenario": "all_enabled",
+    "risk_params": {
+      "max_position_loss_pct": 0.04,
+      "max_aggregate_premium_pct": 0.2,
+      "circuit_breaker_weekly_drawdown": 0.05
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_071_base_narrow_large_high_conviction.yaml",
+    "final_nav": 10568.4,
+    "total_return": 5.68,
+    "max_drawdown": 0.0,
+    "sharpe_ratio": 3.49,
+    "win_rate": 100.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "VLO_EARNINGS_CALL_SPREAD",
+      "MSFT_EARNINGS_CALL_SPREAD"
+    ],
+    "config_name": "base_narrow_large_high_conviction",
+    "risk_scenario": "base",
+    "strike_scenario": "narrow",
+    "sizing_scenario": "large",
+    "strategy_scenario": "high_conviction",
+    "risk_params": {
+      "max_position_loss_pct": 0.04,
+      "max_aggregate_premium_pct": 0.2,
+      "circuit_breaker_weekly_drawdown": 0.05
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_072_base_narrow_large_msft_only.yaml",
+    "final_nav": 10000.0,
+    "total_return": 0.0,
+    "max_drawdown": 0.0,
+    "sharpe_ratio": 0.0,
+    "win_rate": 0.0,
+    "num_trades": 0,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "MSFT_EARNINGS_CALL_SPREAD"
+    ],
+    "config_name": "base_narrow_large_msft_only",
+    "risk_scenario": "base",
+    "strike_scenario": "narrow",
+    "sizing_scenario": "large",
+    "strategy_scenario": "msft_only",
+    "risk_params": {
+      "max_position_loss_pct": 0.04,
+      "max_aggregate_premium_pct": 0.2,
+      "circuit_breaker_weekly_drawdown": 0.05
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_073_base_wide_small_all_enabled.yaml",
+    "final_nav": 10160.8,
+    "total_return": 1.61,
+    "max_drawdown": 5.01,
+    "sharpe_ratio": 0.7,
+    "win_rate": 0.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "VLO_EARNINGS_CALL_SPREAD",
+      "AMD_EARNINGS_CALL_SPREAD",
+      "MPC_EARNINGS_CALL_SPREAD",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "base_wide_small_all_enabled",
+    "risk_scenario": "base",
+    "strike_scenario": "wide",
+    "sizing_scenario": "small",
+    "strategy_scenario": "all_enabled",
+    "risk_params": {
+      "max_position_loss_pct": 0.04,
+      "max_aggregate_premium_pct": 0.2,
+      "circuit_breaker_weekly_drawdown": 0.05
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_074_base_wide_small_high_conviction.yaml",
+    "final_nav": 10160.8,
+    "total_return": 1.61,
+    "max_drawdown": 5.01,
+    "sharpe_ratio": 0.7,
+    "win_rate": 0.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "VLO_EARNINGS_CALL_SPREAD",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "base_wide_small_high_conviction",
+    "risk_scenario": "base",
+    "strike_scenario": "wide",
+    "sizing_scenario": "small",
+    "strategy_scenario": "high_conviction",
+    "risk_params": {
+      "max_position_loss_pct": 0.04,
+      "max_aggregate_premium_pct": 0.2,
+      "circuit_breaker_weekly_drawdown": 0.05
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_075_base_wide_small_msft_only.yaml",
+    "final_nav": 10160.8,
+    "total_return": 1.61,
+    "max_drawdown": 5.01,
+    "sharpe_ratio": 0.7,
+    "win_rate": 0.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT"
+    ],
+    "config_name": "base_wide_small_msft_only",
+    "risk_scenario": "base",
+    "strike_scenario": "wide",
+    "sizing_scenario": "small",
+    "strategy_scenario": "msft_only",
+    "risk_params": {
+      "max_position_loss_pct": 0.04,
+      "max_aggregate_premium_pct": 0.2,
+      "circuit_breaker_weekly_drawdown": 0.05
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_076_base_wide_normal_all_enabled.yaml",
+    "final_nav": 14321.6,
+    "total_return": 43.22,
+    "max_drawdown": 8.74,
+    "sharpe_ratio": 1.58,
+    "win_rate": 100.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": true,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "VLO_EARNINGS_CALL_SPREAD",
+      "AMD_EARNINGS_CALL_SPREAD",
+      "MPC_EARNINGS_CALL_SPREAD",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "base_wide_normal_all_enabled",
+    "risk_scenario": "base",
+    "strike_scenario": "wide",
+    "sizing_scenario": "normal",
+    "strategy_scenario": "all_enabled",
+    "risk_params": {
+      "max_position_loss_pct": 0.04,
+      "max_aggregate_premium_pct": 0.2,
+      "circuit_breaker_weekly_drawdown": 0.05
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_077_base_wide_normal_high_conviction.yaml",
+    "final_nav": 14321.6,
+    "total_return": 43.22,
+    "max_drawdown": 8.74,
+    "sharpe_ratio": 1.58,
+    "win_rate": 100.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": true,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "VLO_EARNINGS_CALL_SPREAD",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "base_wide_normal_high_conviction",
+    "risk_scenario": "base",
+    "strike_scenario": "wide",
+    "sizing_scenario": "normal",
+    "strategy_scenario": "high_conviction",
+    "risk_params": {
+      "max_position_loss_pct": 0.04,
+      "max_aggregate_premium_pct": 0.2,
+      "circuit_breaker_weekly_drawdown": 0.05
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_078_base_wide_normal_msft_only.yaml",
+    "final_nav": 14321.6,
+    "total_return": 43.22,
+    "max_drawdown": 8.74,
+    "sharpe_ratio": 1.58,
+    "win_rate": 100.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": true,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT"
+    ],
+    "config_name": "base_wide_normal_msft_only",
+    "risk_scenario": "base",
+    "strike_scenario": "wide",
+    "sizing_scenario": "normal",
+    "strategy_scenario": "msft_only",
+    "risk_params": {
+      "max_position_loss_pct": 0.04,
+      "max_aggregate_premium_pct": 0.2,
+      "circuit_breaker_weekly_drawdown": 0.05
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_079_base_wide_large_all_enabled.yaml",
+    "final_nav": 10000.0,
+    "total_return": 0.0,
+    "max_drawdown": 0.0,
+    "sharpe_ratio": 0.0,
+    "win_rate": 0.0,
+    "num_trades": 0,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "VLO_EARNINGS_CALL_SPREAD",
+      "MSFT_EARNINGS_CALL_SPREAD",
+      "AMD_EARNINGS_CALL_SPREAD",
+      "MPC_EARNINGS_CALL_SPREAD",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "base_wide_large_all_enabled",
+    "risk_scenario": "base",
+    "strike_scenario": "wide",
+    "sizing_scenario": "large",
+    "strategy_scenario": "all_enabled",
+    "risk_params": {
+      "max_position_loss_pct": 0.04,
+      "max_aggregate_premium_pct": 0.2,
+      "circuit_breaker_weekly_drawdown": 0.05
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_080_base_wide_large_high_conviction.yaml",
+    "final_nav": 10000.0,
+    "total_return": 0.0,
+    "max_drawdown": 0.0,
+    "sharpe_ratio": 0.0,
+    "win_rate": 0.0,
+    "num_trades": 0,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "VLO_EARNINGS_CALL_SPREAD",
+      "MSFT_EARNINGS_CALL_SPREAD",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "base_wide_large_high_conviction",
+    "risk_scenario": "base",
+    "strike_scenario": "wide",
+    "sizing_scenario": "large",
+    "strategy_scenario": "high_conviction",
+    "risk_params": {
+      "max_position_loss_pct": 0.04,
+      "max_aggregate_premium_pct": 0.2,
+      "circuit_breaker_weekly_drawdown": 0.05
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_081_base_wide_large_msft_only.yaml",
+    "final_nav": 10000.0,
+    "total_return": 0.0,
+    "max_drawdown": 0.0,
+    "sharpe_ratio": 0.0,
+    "win_rate": 0.0,
+    "num_trades": 0,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "MSFT_EARNINGS_CALL_SPREAD"
+    ],
+    "config_name": "base_wide_large_msft_only",
+    "risk_scenario": "base",
+    "strike_scenario": "wide",
+    "sizing_scenario": "large",
+    "strategy_scenario": "msft_only",
+    "risk_params": {
+      "max_position_loss_pct": 0.04,
+      "max_aggregate_premium_pct": 0.2,
+      "circuit_breaker_weekly_drawdown": 0.05
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_082_conservative_base_small_all_enabled.yaml",
+    "final_nav": 12160.8,
+    "total_return": 21.61,
+    "max_drawdown": 4.71,
+    "sharpe_ratio": 1.34,
+    "win_rate": 100.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": true,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "VLO_EARNINGS_CALL_SPREAD",
+      "AMD_EARNINGS_CALL_SPREAD",
+      "MPC_EARNINGS_CALL_SPREAD",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "conservative_base_small_all_enabled",
+    "risk_scenario": "conservative",
+    "strike_scenario": "base",
+    "sizing_scenario": "small",
+    "strategy_scenario": "all_enabled",
+    "risk_params": {
+      "max_position_loss_pct": 0.03,
+      "max_aggregate_premium_pct": 0.15,
+      "circuit_breaker_weekly_drawdown": 0.04
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_083_conservative_base_small_high_conviction.yaml",
+    "final_nav": 12160.8,
+    "total_return": 21.61,
+    "max_drawdown": 4.71,
+    "sharpe_ratio": 1.34,
+    "win_rate": 100.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": true,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "VLO_EARNINGS_CALL_SPREAD",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "conservative_base_small_high_conviction",
+    "risk_scenario": "conservative",
+    "strike_scenario": "base",
+    "sizing_scenario": "small",
+    "strategy_scenario": "high_conviction",
+    "risk_params": {
+      "max_position_loss_pct": 0.03,
+      "max_aggregate_premium_pct": 0.15,
+      "circuit_breaker_weekly_drawdown": 0.04
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_084_conservative_base_small_msft_only.yaml",
+    "final_nav": 12160.8,
+    "total_return": 21.61,
+    "max_drawdown": 4.71,
+    "sharpe_ratio": 1.34,
+    "win_rate": 100.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": true,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT"
+    ],
+    "config_name": "conservative_base_small_msft_only",
+    "risk_scenario": "conservative",
+    "strike_scenario": "base",
+    "sizing_scenario": "small",
+    "strategy_scenario": "msft_only",
+    "risk_params": {
+      "max_position_loss_pct": 0.03,
+      "max_aggregate_premium_pct": 0.15,
+      "circuit_breaker_weekly_drawdown": 0.04
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_085_conservative_base_normal_all_enabled.yaml",
+    "final_nav": 10000.0,
+    "total_return": 0.0,
+    "max_drawdown": 0.0,
+    "sharpe_ratio": 0.0,
+    "win_rate": 0.0,
+    "num_trades": 0,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "VLO_EARNINGS_CALL_SPREAD",
+      "MSFT_EARNINGS_CALL_SPREAD",
+      "AMD_EARNINGS_CALL_SPREAD",
+      "MPC_EARNINGS_CALL_SPREAD",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "conservative_base_normal_all_enabled",
+    "risk_scenario": "conservative",
+    "strike_scenario": "base",
+    "sizing_scenario": "normal",
+    "strategy_scenario": "all_enabled",
+    "risk_params": {
+      "max_position_loss_pct": 0.03,
+      "max_aggregate_premium_pct": 0.15,
+      "circuit_breaker_weekly_drawdown": 0.04
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_086_conservative_base_normal_high_conviction.yaml",
+    "final_nav": 10000.0,
+    "total_return": 0.0,
+    "max_drawdown": 0.0,
+    "sharpe_ratio": 0.0,
+    "win_rate": 0.0,
+    "num_trades": 0,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "VLO_EARNINGS_CALL_SPREAD",
+      "MSFT_EARNINGS_CALL_SPREAD",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "conservative_base_normal_high_conviction",
+    "risk_scenario": "conservative",
+    "strike_scenario": "base",
+    "sizing_scenario": "normal",
+    "strategy_scenario": "high_conviction",
+    "risk_params": {
+      "max_position_loss_pct": 0.03,
+      "max_aggregate_premium_pct": 0.15,
+      "circuit_breaker_weekly_drawdown": 0.04
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_087_conservative_base_normal_msft_only.yaml",
+    "final_nav": 10000.0,
+    "total_return": 0.0,
+    "max_drawdown": 0.0,
+    "sharpe_ratio": 0.0,
+    "win_rate": 0.0,
+    "num_trades": 0,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "MSFT_EARNINGS_CALL_SPREAD"
+    ],
+    "config_name": "conservative_base_normal_msft_only",
+    "risk_scenario": "conservative",
+    "strike_scenario": "base",
+    "sizing_scenario": "normal",
+    "strategy_scenario": "msft_only",
+    "risk_params": {
+      "max_position_loss_pct": 0.03,
+      "max_aggregate_premium_pct": 0.15,
+      "circuit_breaker_weekly_drawdown": 0.04
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_088_conservative_base_large_all_enabled.yaml",
+    "final_nav": 10000.0,
+    "total_return": 0.0,
+    "max_drawdown": 0.0,
+    "sharpe_ratio": 0.0,
+    "win_rate": 0.0,
+    "num_trades": 0,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "VLO_EARNINGS_CALL_SPREAD",
+      "MSFT_EARNINGS_CALL_SPREAD",
+      "AMD_EARNINGS_CALL_SPREAD",
+      "MPC_EARNINGS_CALL_SPREAD",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "conservative_base_large_all_enabled",
+    "risk_scenario": "conservative",
+    "strike_scenario": "base",
+    "sizing_scenario": "large",
+    "strategy_scenario": "all_enabled",
+    "risk_params": {
+      "max_position_loss_pct": 0.03,
+      "max_aggregate_premium_pct": 0.15,
+      "circuit_breaker_weekly_drawdown": 0.04
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_089_conservative_base_large_high_conviction.yaml",
+    "final_nav": 10000.0,
+    "total_return": 0.0,
+    "max_drawdown": 0.0,
+    "sharpe_ratio": 0.0,
+    "win_rate": 0.0,
+    "num_trades": 0,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "VLO_EARNINGS_CALL_SPREAD",
+      "MSFT_EARNINGS_CALL_SPREAD",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "conservative_base_large_high_conviction",
+    "risk_scenario": "conservative",
+    "strike_scenario": "base",
+    "sizing_scenario": "large",
+    "strategy_scenario": "high_conviction",
+    "risk_params": {
+      "max_position_loss_pct": 0.03,
+      "max_aggregate_premium_pct": 0.15,
+      "circuit_breaker_weekly_drawdown": 0.04
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_090_conservative_base_large_msft_only.yaml",
+    "final_nav": 10000.0,
+    "total_return": 0.0,
+    "max_drawdown": 0.0,
+    "sharpe_ratio": 0.0,
+    "win_rate": 0.0,
+    "num_trades": 0,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "MSFT_EARNINGS_CALL_SPREAD"
+    ],
+    "config_name": "conservative_base_large_msft_only",
+    "risk_scenario": "conservative",
+    "strike_scenario": "base",
+    "sizing_scenario": "large",
+    "strategy_scenario": "msft_only",
+    "risk_params": {
+      "max_position_loss_pct": 0.03,
+      "max_aggregate_premium_pct": 0.15,
+      "circuit_breaker_weekly_drawdown": 0.04
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_091_conservative_narrow_small_all_enabled.yaml",
+    "final_nav": 12160.8,
+    "total_return": 21.61,
+    "max_drawdown": 4.71,
+    "sharpe_ratio": 1.34,
+    "win_rate": 100.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": true,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "VLO_EARNINGS_CALL_SPREAD",
+      "AMD_EARNINGS_CALL_SPREAD",
+      "MPC_EARNINGS_CALL_SPREAD",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "conservative_narrow_small_all_enabled",
+    "risk_scenario": "conservative",
+    "strike_scenario": "narrow",
+    "sizing_scenario": "small",
+    "strategy_scenario": "all_enabled",
+    "risk_params": {
+      "max_position_loss_pct": 0.03,
+      "max_aggregate_premium_pct": 0.15,
+      "circuit_breaker_weekly_drawdown": 0.04
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_092_conservative_narrow_small_high_conviction.yaml",
+    "final_nav": 12160.8,
+    "total_return": 21.61,
+    "max_drawdown": 4.71,
+    "sharpe_ratio": 1.34,
+    "win_rate": 100.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": true,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "VLO_EARNINGS_CALL_SPREAD",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "conservative_narrow_small_high_conviction",
+    "risk_scenario": "conservative",
+    "strike_scenario": "narrow",
+    "sizing_scenario": "small",
+    "strategy_scenario": "high_conviction",
+    "risk_params": {
+      "max_position_loss_pct": 0.03,
+      "max_aggregate_premium_pct": 0.15,
+      "circuit_breaker_weekly_drawdown": 0.04
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_093_conservative_narrow_small_msft_only.yaml",
+    "final_nav": 12160.8,
+    "total_return": 21.61,
+    "max_drawdown": 4.71,
+    "sharpe_ratio": 1.34,
+    "win_rate": 100.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": true,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT"
+    ],
+    "config_name": "conservative_narrow_small_msft_only",
+    "risk_scenario": "conservative",
+    "strike_scenario": "narrow",
+    "sizing_scenario": "small",
+    "strategy_scenario": "msft_only",
+    "risk_params": {
+      "max_position_loss_pct": 0.03,
+      "max_aggregate_premium_pct": 0.15,
+      "circuit_breaker_weekly_drawdown": 0.04
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_094_conservative_narrow_normal_all_enabled.yaml",
+    "final_nav": 10568.4,
+    "total_return": 5.68,
+    "max_drawdown": 0.0,
+    "sharpe_ratio": 3.49,
+    "win_rate": 100.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "VLO_EARNINGS_CALL_SPREAD",
+      "MSFT_EARNINGS_CALL_SPREAD",
+      "AMD_EARNINGS_CALL_SPREAD",
+      "MPC_EARNINGS_CALL_SPREAD"
+    ],
+    "config_name": "conservative_narrow_normal_all_enabled",
+    "risk_scenario": "conservative",
+    "strike_scenario": "narrow",
+    "sizing_scenario": "normal",
+    "strategy_scenario": "all_enabled",
+    "risk_params": {
+      "max_position_loss_pct": 0.03,
+      "max_aggregate_premium_pct": 0.15,
+      "circuit_breaker_weekly_drawdown": 0.04
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_095_conservative_narrow_normal_high_conviction.yaml",
+    "final_nav": 10568.4,
+    "total_return": 5.68,
+    "max_drawdown": 0.0,
+    "sharpe_ratio": 3.49,
+    "win_rate": 100.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "VLO_EARNINGS_CALL_SPREAD",
+      "MSFT_EARNINGS_CALL_SPREAD"
+    ],
+    "config_name": "conservative_narrow_normal_high_conviction",
+    "risk_scenario": "conservative",
+    "strike_scenario": "narrow",
+    "sizing_scenario": "normal",
+    "strategy_scenario": "high_conviction",
+    "risk_params": {
+      "max_position_loss_pct": 0.03,
+      "max_aggregate_premium_pct": 0.15,
+      "circuit_breaker_weekly_drawdown": 0.04
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_096_conservative_narrow_normal_msft_only.yaml",
+    "final_nav": 10000.0,
+    "total_return": 0.0,
+    "max_drawdown": 0.0,
+    "sharpe_ratio": 0.0,
+    "win_rate": 0.0,
+    "num_trades": 0,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "MSFT_EARNINGS_CALL_SPREAD"
+    ],
+    "config_name": "conservative_narrow_normal_msft_only",
+    "risk_scenario": "conservative",
+    "strike_scenario": "narrow",
+    "sizing_scenario": "normal",
+    "strategy_scenario": "msft_only",
+    "risk_params": {
+      "max_position_loss_pct": 0.03,
+      "max_aggregate_premium_pct": 0.15,
+      "circuit_breaker_weekly_drawdown": 0.04
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_097_conservative_narrow_large_all_enabled.yaml",
+    "final_nav": 10568.4,
+    "total_return": 5.68,
+    "max_drawdown": 0.0,
+    "sharpe_ratio": 3.49,
+    "win_rate": 100.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "VLO_EARNINGS_CALL_SPREAD",
+      "MSFT_EARNINGS_CALL_SPREAD",
+      "AMD_EARNINGS_CALL_SPREAD",
+      "MPC_EARNINGS_CALL_SPREAD"
+    ],
+    "config_name": "conservative_narrow_large_all_enabled",
+    "risk_scenario": "conservative",
+    "strike_scenario": "narrow",
+    "sizing_scenario": "large",
+    "strategy_scenario": "all_enabled",
+    "risk_params": {
+      "max_position_loss_pct": 0.03,
+      "max_aggregate_premium_pct": 0.15,
+      "circuit_breaker_weekly_drawdown": 0.04
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_098_conservative_narrow_large_high_conviction.yaml",
+    "final_nav": 10568.4,
+    "total_return": 5.68,
+    "max_drawdown": 0.0,
+    "sharpe_ratio": 3.49,
+    "win_rate": 100.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "VLO_EARNINGS_CALL_SPREAD",
+      "MSFT_EARNINGS_CALL_SPREAD"
+    ],
+    "config_name": "conservative_narrow_large_high_conviction",
+    "risk_scenario": "conservative",
+    "strike_scenario": "narrow",
+    "sizing_scenario": "large",
+    "strategy_scenario": "high_conviction",
+    "risk_params": {
+      "max_position_loss_pct": 0.03,
+      "max_aggregate_premium_pct": 0.15,
+      "circuit_breaker_weekly_drawdown": 0.04
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_099_conservative_narrow_large_msft_only.yaml",
+    "final_nav": 10000.0,
+    "total_return": 0.0,
+    "max_drawdown": 0.0,
+    "sharpe_ratio": 0.0,
+    "win_rate": 0.0,
+    "num_trades": 0,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "MSFT_EARNINGS_CALL_SPREAD"
+    ],
+    "config_name": "conservative_narrow_large_msft_only",
+    "risk_scenario": "conservative",
+    "strike_scenario": "narrow",
+    "sizing_scenario": "large",
+    "strategy_scenario": "msft_only",
+    "risk_params": {
+      "max_position_loss_pct": 0.03,
+      "max_aggregate_premium_pct": 0.15,
+      "circuit_breaker_weekly_drawdown": 0.04
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_100_conservative_wide_small_all_enabled.yaml",
+    "final_nav": 12160.8,
+    "total_return": 21.61,
+    "max_drawdown": 4.71,
+    "sharpe_ratio": 1.34,
+    "win_rate": 100.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": true,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "VLO_EARNINGS_CALL_SPREAD",
+      "AMD_EARNINGS_CALL_SPREAD",
+      "MPC_EARNINGS_CALL_SPREAD",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "conservative_wide_small_all_enabled",
+    "risk_scenario": "conservative",
+    "strike_scenario": "wide",
+    "sizing_scenario": "small",
+    "strategy_scenario": "all_enabled",
+    "risk_params": {
+      "max_position_loss_pct": 0.03,
+      "max_aggregate_premium_pct": 0.15,
+      "circuit_breaker_weekly_drawdown": 0.04
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_101_conservative_wide_small_high_conviction.yaml",
+    "final_nav": 12160.8,
+    "total_return": 21.61,
+    "max_drawdown": 4.71,
+    "sharpe_ratio": 1.34,
+    "win_rate": 100.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": true,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "VLO_EARNINGS_CALL_SPREAD",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "conservative_wide_small_high_conviction",
+    "risk_scenario": "conservative",
+    "strike_scenario": "wide",
+    "sizing_scenario": "small",
+    "strategy_scenario": "high_conviction",
+    "risk_params": {
+      "max_position_loss_pct": 0.03,
+      "max_aggregate_premium_pct": 0.15,
+      "circuit_breaker_weekly_drawdown": 0.04
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_102_conservative_wide_small_msft_only.yaml",
+    "final_nav": 12160.8,
+    "total_return": 21.61,
+    "max_drawdown": 4.71,
+    "sharpe_ratio": 1.34,
+    "win_rate": 100.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": true,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT"
+    ],
+    "config_name": "conservative_wide_small_msft_only",
+    "risk_scenario": "conservative",
+    "strike_scenario": "wide",
+    "sizing_scenario": "small",
+    "strategy_scenario": "msft_only",
+    "risk_params": {
+      "max_position_loss_pct": 0.03,
+      "max_aggregate_premium_pct": 0.15,
+      "circuit_breaker_weekly_drawdown": 0.04
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_103_conservative_wide_normal_all_enabled.yaml",
+    "final_nav": 10000.0,
+    "total_return": 0.0,
+    "max_drawdown": 0.0,
+    "sharpe_ratio": 0.0,
+    "win_rate": 0.0,
+    "num_trades": 0,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "VLO_EARNINGS_CALL_SPREAD",
+      "MSFT_EARNINGS_CALL_SPREAD",
+      "AMD_EARNINGS_CALL_SPREAD",
+      "MPC_EARNINGS_CALL_SPREAD",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "conservative_wide_normal_all_enabled",
+    "risk_scenario": "conservative",
+    "strike_scenario": "wide",
+    "sizing_scenario": "normal",
+    "strategy_scenario": "all_enabled",
+    "risk_params": {
+      "max_position_loss_pct": 0.03,
+      "max_aggregate_premium_pct": 0.15,
+      "circuit_breaker_weekly_drawdown": 0.04
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_104_conservative_wide_normal_high_conviction.yaml",
+    "final_nav": 10000.0,
+    "total_return": 0.0,
+    "max_drawdown": 0.0,
+    "sharpe_ratio": 0.0,
+    "win_rate": 0.0,
+    "num_trades": 0,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "VLO_EARNINGS_CALL_SPREAD",
+      "MSFT_EARNINGS_CALL_SPREAD",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "conservative_wide_normal_high_conviction",
+    "risk_scenario": "conservative",
+    "strike_scenario": "wide",
+    "sizing_scenario": "normal",
+    "strategy_scenario": "high_conviction",
+    "risk_params": {
+      "max_position_loss_pct": 0.03,
+      "max_aggregate_premium_pct": 0.15,
+      "circuit_breaker_weekly_drawdown": 0.04
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_105_conservative_wide_normal_msft_only.yaml",
+    "final_nav": 10000.0,
+    "total_return": 0.0,
+    "max_drawdown": 0.0,
+    "sharpe_ratio": 0.0,
+    "win_rate": 0.0,
+    "num_trades": 0,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "MSFT_EARNINGS_CALL_SPREAD"
+    ],
+    "config_name": "conservative_wide_normal_msft_only",
+    "risk_scenario": "conservative",
+    "strike_scenario": "wide",
+    "sizing_scenario": "normal",
+    "strategy_scenario": "msft_only",
+    "risk_params": {
+      "max_position_loss_pct": 0.03,
+      "max_aggregate_premium_pct": 0.15,
+      "circuit_breaker_weekly_drawdown": 0.04
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_106_conservative_wide_large_all_enabled.yaml",
+    "final_nav": 10000.0,
+    "total_return": 0.0,
+    "max_drawdown": 0.0,
+    "sharpe_ratio": 0.0,
+    "win_rate": 0.0,
+    "num_trades": 0,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "VLO_EARNINGS_CALL_SPREAD",
+      "MSFT_EARNINGS_CALL_SPREAD",
+      "AMD_EARNINGS_CALL_SPREAD",
+      "MPC_EARNINGS_CALL_SPREAD",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "conservative_wide_large_all_enabled",
+    "risk_scenario": "conservative",
+    "strike_scenario": "wide",
+    "sizing_scenario": "large",
+    "strategy_scenario": "all_enabled",
+    "risk_params": {
+      "max_position_loss_pct": 0.03,
+      "max_aggregate_premium_pct": 0.15,
+      "circuit_breaker_weekly_drawdown": 0.04
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_107_conservative_wide_large_high_conviction.yaml",
+    "final_nav": 10000.0,
+    "total_return": 0.0,
+    "max_drawdown": 0.0,
+    "sharpe_ratio": 0.0,
+    "win_rate": 0.0,
+    "num_trades": 0,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "VLO_EARNINGS_CALL_SPREAD",
+      "MSFT_EARNINGS_CALL_SPREAD",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "conservative_wide_large_high_conviction",
+    "risk_scenario": "conservative",
+    "strike_scenario": "wide",
+    "sizing_scenario": "large",
+    "strategy_scenario": "high_conviction",
+    "risk_params": {
+      "max_position_loss_pct": 0.03,
+      "max_aggregate_premium_pct": 0.15,
+      "circuit_breaker_weekly_drawdown": 0.04
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_108_conservative_wide_large_msft_only.yaml",
+    "final_nav": 10000.0,
+    "total_return": 0.0,
+    "max_drawdown": 0.0,
+    "sharpe_ratio": 0.0,
+    "win_rate": 0.0,
+    "num_trades": 0,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "MSFT_EARNINGS_CALL_SPREAD"
+    ],
+    "config_name": "conservative_wide_large_msft_only",
+    "risk_scenario": "conservative",
+    "strike_scenario": "wide",
+    "sizing_scenario": "large",
+    "strategy_scenario": "msft_only",
+    "risk_params": {
+      "max_position_loss_pct": 0.03,
+      "max_aggregate_premium_pct": 0.15,
+      "circuit_breaker_weekly_drawdown": 0.04
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_109_very_conservative_base_small_all_enabled.yaml",
+    "final_nav": 12160.8,
+    "total_return": 21.61,
+    "max_drawdown": 4.65,
+    "sharpe_ratio": 1.42,
+    "win_rate": 100.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": true,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "VLO_EARNINGS_CALL_SPREAD",
+      "AMD_EARNINGS_CALL_SPREAD",
+      "MPC_EARNINGS_CALL_SPREAD",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "very_conservative_base_small_all_enabled",
+    "risk_scenario": "very_conservative",
+    "strike_scenario": "base",
+    "sizing_scenario": "small",
+    "strategy_scenario": "all_enabled",
+    "risk_params": {
+      "max_position_loss_pct": 0.025,
+      "max_aggregate_premium_pct": 0.1,
+      "circuit_breaker_weekly_drawdown": 0.03
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_110_very_conservative_base_small_high_conviction.yaml",
+    "final_nav": 12160.8,
+    "total_return": 21.61,
+    "max_drawdown": 4.65,
+    "sharpe_ratio": 1.42,
+    "win_rate": 100.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": true,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "VLO_EARNINGS_CALL_SPREAD",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "very_conservative_base_small_high_conviction",
+    "risk_scenario": "very_conservative",
+    "strike_scenario": "base",
+    "sizing_scenario": "small",
+    "strategy_scenario": "high_conviction",
+    "risk_params": {
+      "max_position_loss_pct": 0.025,
+      "max_aggregate_premium_pct": 0.1,
+      "circuit_breaker_weekly_drawdown": 0.03
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_111_very_conservative_base_small_msft_only.yaml",
+    "final_nav": 12160.8,
+    "total_return": 21.61,
+    "max_drawdown": 4.65,
+    "sharpe_ratio": 1.42,
+    "win_rate": 100.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": true,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT"
+    ],
+    "config_name": "very_conservative_base_small_msft_only",
+    "risk_scenario": "very_conservative",
+    "strike_scenario": "base",
+    "sizing_scenario": "small",
+    "strategy_scenario": "msft_only",
+    "risk_params": {
+      "max_position_loss_pct": 0.025,
+      "max_aggregate_premium_pct": 0.1,
+      "circuit_breaker_weekly_drawdown": 0.03
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_112_very_conservative_base_normal_all_enabled.yaml",
+    "final_nav": 10000.0,
+    "total_return": 0.0,
+    "max_drawdown": 0.0,
+    "sharpe_ratio": 0.0,
+    "win_rate": 0.0,
+    "num_trades": 0,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "VLO_EARNINGS_CALL_SPREAD",
+      "MSFT_EARNINGS_CALL_SPREAD",
+      "AMD_EARNINGS_CALL_SPREAD",
+      "MPC_EARNINGS_CALL_SPREAD",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "very_conservative_base_normal_all_enabled",
+    "risk_scenario": "very_conservative",
+    "strike_scenario": "base",
+    "sizing_scenario": "normal",
+    "strategy_scenario": "all_enabled",
+    "risk_params": {
+      "max_position_loss_pct": 0.025,
+      "max_aggregate_premium_pct": 0.1,
+      "circuit_breaker_weekly_drawdown": 0.03
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_113_very_conservative_base_normal_high_conviction.yaml",
+    "final_nav": 10000.0,
+    "total_return": 0.0,
+    "max_drawdown": 0.0,
+    "sharpe_ratio": 0.0,
+    "win_rate": 0.0,
+    "num_trades": 0,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "VLO_EARNINGS_CALL_SPREAD",
+      "MSFT_EARNINGS_CALL_SPREAD",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "very_conservative_base_normal_high_conviction",
+    "risk_scenario": "very_conservative",
+    "strike_scenario": "base",
+    "sizing_scenario": "normal",
+    "strategy_scenario": "high_conviction",
+    "risk_params": {
+      "max_position_loss_pct": 0.025,
+      "max_aggregate_premium_pct": 0.1,
+      "circuit_breaker_weekly_drawdown": 0.03
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_114_very_conservative_base_normal_msft_only.yaml",
+    "final_nav": 10000.0,
+    "total_return": 0.0,
+    "max_drawdown": 0.0,
+    "sharpe_ratio": 0.0,
+    "win_rate": 0.0,
+    "num_trades": 0,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "MSFT_EARNINGS_CALL_SPREAD"
+    ],
+    "config_name": "very_conservative_base_normal_msft_only",
+    "risk_scenario": "very_conservative",
+    "strike_scenario": "base",
+    "sizing_scenario": "normal",
+    "strategy_scenario": "msft_only",
+    "risk_params": {
+      "max_position_loss_pct": 0.025,
+      "max_aggregate_premium_pct": 0.1,
+      "circuit_breaker_weekly_drawdown": 0.03
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_115_very_conservative_base_large_all_enabled.yaml",
+    "final_nav": 10000.0,
+    "total_return": 0.0,
+    "max_drawdown": 0.0,
+    "sharpe_ratio": 0.0,
+    "win_rate": 0.0,
+    "num_trades": 0,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "VLO_EARNINGS_CALL_SPREAD",
+      "MSFT_EARNINGS_CALL_SPREAD",
+      "AMD_EARNINGS_CALL_SPREAD",
+      "MPC_EARNINGS_CALL_SPREAD",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "very_conservative_base_large_all_enabled",
+    "risk_scenario": "very_conservative",
+    "strike_scenario": "base",
+    "sizing_scenario": "large",
+    "strategy_scenario": "all_enabled",
+    "risk_params": {
+      "max_position_loss_pct": 0.025,
+      "max_aggregate_premium_pct": 0.1,
+      "circuit_breaker_weekly_drawdown": 0.03
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_116_very_conservative_base_large_high_conviction.yaml",
+    "final_nav": 10000.0,
+    "total_return": 0.0,
+    "max_drawdown": 0.0,
+    "sharpe_ratio": 0.0,
+    "win_rate": 0.0,
+    "num_trades": 0,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "VLO_EARNINGS_CALL_SPREAD",
+      "MSFT_EARNINGS_CALL_SPREAD",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "very_conservative_base_large_high_conviction",
+    "risk_scenario": "very_conservative",
+    "strike_scenario": "base",
+    "sizing_scenario": "large",
+    "strategy_scenario": "high_conviction",
+    "risk_params": {
+      "max_position_loss_pct": 0.025,
+      "max_aggregate_premium_pct": 0.1,
+      "circuit_breaker_weekly_drawdown": 0.03
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_117_very_conservative_base_large_msft_only.yaml",
+    "final_nav": 10000.0,
+    "total_return": 0.0,
+    "max_drawdown": 0.0,
+    "sharpe_ratio": 0.0,
+    "win_rate": 0.0,
+    "num_trades": 0,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "MSFT_EARNINGS_CALL_SPREAD"
+    ],
+    "config_name": "very_conservative_base_large_msft_only",
+    "risk_scenario": "very_conservative",
+    "strike_scenario": "base",
+    "sizing_scenario": "large",
+    "strategy_scenario": "msft_only",
+    "risk_params": {
+      "max_position_loss_pct": 0.025,
+      "max_aggregate_premium_pct": 0.1,
+      "circuit_breaker_weekly_drawdown": 0.03
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_118_very_conservative_narrow_small_all_enabled.yaml",
+    "final_nav": 12160.8,
+    "total_return": 21.61,
+    "max_drawdown": 4.65,
+    "sharpe_ratio": 1.42,
+    "win_rate": 100.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": true,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "VLO_EARNINGS_CALL_SPREAD",
+      "AMD_EARNINGS_CALL_SPREAD",
+      "MPC_EARNINGS_CALL_SPREAD",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "very_conservative_narrow_small_all_enabled",
+    "risk_scenario": "very_conservative",
+    "strike_scenario": "narrow",
+    "sizing_scenario": "small",
+    "strategy_scenario": "all_enabled",
+    "risk_params": {
+      "max_position_loss_pct": 0.025,
+      "max_aggregate_premium_pct": 0.1,
+      "circuit_breaker_weekly_drawdown": 0.03
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_119_very_conservative_narrow_small_high_conviction.yaml",
+    "final_nav": 12160.8,
+    "total_return": 21.61,
+    "max_drawdown": 4.65,
+    "sharpe_ratio": 1.42,
+    "win_rate": 100.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": true,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "VLO_EARNINGS_CALL_SPREAD",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "very_conservative_narrow_small_high_conviction",
+    "risk_scenario": "very_conservative",
+    "strike_scenario": "narrow",
+    "sizing_scenario": "small",
+    "strategy_scenario": "high_conviction",
+    "risk_params": {
+      "max_position_loss_pct": 0.025,
+      "max_aggregate_premium_pct": 0.1,
+      "circuit_breaker_weekly_drawdown": 0.03
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_120_very_conservative_narrow_small_msft_only.yaml",
+    "final_nav": 12160.8,
+    "total_return": 21.61,
+    "max_drawdown": 4.65,
+    "sharpe_ratio": 1.42,
+    "win_rate": 100.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": true,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT"
+    ],
+    "config_name": "very_conservative_narrow_small_msft_only",
+    "risk_scenario": "very_conservative",
+    "strike_scenario": "narrow",
+    "sizing_scenario": "small",
+    "strategy_scenario": "msft_only",
+    "risk_params": {
+      "max_position_loss_pct": 0.025,
+      "max_aggregate_premium_pct": 0.1,
+      "circuit_breaker_weekly_drawdown": 0.03
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_121_very_conservative_narrow_normal_all_enabled.yaml",
+    "final_nav": 10000.0,
+    "total_return": 0.0,
+    "max_drawdown": 0.0,
+    "sharpe_ratio": 0.0,
+    "win_rate": 0.0,
+    "num_trades": 0,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "VLO_EARNINGS_CALL_SPREAD",
+      "MSFT_EARNINGS_CALL_SPREAD",
+      "AMD_EARNINGS_CALL_SPREAD",
+      "MPC_EARNINGS_CALL_SPREAD",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "very_conservative_narrow_normal_all_enabled",
+    "risk_scenario": "very_conservative",
+    "strike_scenario": "narrow",
+    "sizing_scenario": "normal",
+    "strategy_scenario": "all_enabled",
+    "risk_params": {
+      "max_position_loss_pct": 0.025,
+      "max_aggregate_premium_pct": 0.1,
+      "circuit_breaker_weekly_drawdown": 0.03
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_122_very_conservative_narrow_normal_high_conviction.yaml",
+    "final_nav": 10000.0,
+    "total_return": 0.0,
+    "max_drawdown": 0.0,
+    "sharpe_ratio": 0.0,
+    "win_rate": 0.0,
+    "num_trades": 0,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "VLO_EARNINGS_CALL_SPREAD",
+      "MSFT_EARNINGS_CALL_SPREAD",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "very_conservative_narrow_normal_high_conviction",
+    "risk_scenario": "very_conservative",
+    "strike_scenario": "narrow",
+    "sizing_scenario": "normal",
+    "strategy_scenario": "high_conviction",
+    "risk_params": {
+      "max_position_loss_pct": 0.025,
+      "max_aggregate_premium_pct": 0.1,
+      "circuit_breaker_weekly_drawdown": 0.03
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_123_very_conservative_narrow_normal_msft_only.yaml",
+    "final_nav": 10000.0,
+    "total_return": 0.0,
+    "max_drawdown": 0.0,
+    "sharpe_ratio": 0.0,
+    "win_rate": 0.0,
+    "num_trades": 0,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "MSFT_EARNINGS_CALL_SPREAD"
+    ],
+    "config_name": "very_conservative_narrow_normal_msft_only",
+    "risk_scenario": "very_conservative",
+    "strike_scenario": "narrow",
+    "sizing_scenario": "normal",
+    "strategy_scenario": "msft_only",
+    "risk_params": {
+      "max_position_loss_pct": 0.025,
+      "max_aggregate_premium_pct": 0.1,
+      "circuit_breaker_weekly_drawdown": 0.03
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_124_very_conservative_narrow_large_all_enabled.yaml",
+    "final_nav": 10000.0,
+    "total_return": 0.0,
+    "max_drawdown": 0.0,
+    "sharpe_ratio": 0.0,
+    "win_rate": 0.0,
+    "num_trades": 0,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "VLO_EARNINGS_CALL_SPREAD",
+      "MSFT_EARNINGS_CALL_SPREAD",
+      "AMD_EARNINGS_CALL_SPREAD",
+      "MPC_EARNINGS_CALL_SPREAD",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "very_conservative_narrow_large_all_enabled",
+    "risk_scenario": "very_conservative",
+    "strike_scenario": "narrow",
+    "sizing_scenario": "large",
+    "strategy_scenario": "all_enabled",
+    "risk_params": {
+      "max_position_loss_pct": 0.025,
+      "max_aggregate_premium_pct": 0.1,
+      "circuit_breaker_weekly_drawdown": 0.03
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_125_very_conservative_narrow_large_high_conviction.yaml",
+    "final_nav": 10000.0,
+    "total_return": 0.0,
+    "max_drawdown": 0.0,
+    "sharpe_ratio": 0.0,
+    "win_rate": 0.0,
+    "num_trades": 0,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "VLO_EARNINGS_CALL_SPREAD",
+      "MSFT_EARNINGS_CALL_SPREAD",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "very_conservative_narrow_large_high_conviction",
+    "risk_scenario": "very_conservative",
+    "strike_scenario": "narrow",
+    "sizing_scenario": "large",
+    "strategy_scenario": "high_conviction",
+    "risk_params": {
+      "max_position_loss_pct": 0.025,
+      "max_aggregate_premium_pct": 0.1,
+      "circuit_breaker_weekly_drawdown": 0.03
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_126_very_conservative_narrow_large_msft_only.yaml",
+    "final_nav": 10000.0,
+    "total_return": 0.0,
+    "max_drawdown": 0.0,
+    "sharpe_ratio": 0.0,
+    "win_rate": 0.0,
+    "num_trades": 0,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "MSFT_EARNINGS_CALL_SPREAD"
+    ],
+    "config_name": "very_conservative_narrow_large_msft_only",
+    "risk_scenario": "very_conservative",
+    "strike_scenario": "narrow",
+    "sizing_scenario": "large",
+    "strategy_scenario": "msft_only",
+    "risk_params": {
+      "max_position_loss_pct": 0.025,
+      "max_aggregate_premium_pct": 0.1,
+      "circuit_breaker_weekly_drawdown": 0.03
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_127_very_conservative_wide_small_all_enabled.yaml",
+    "final_nav": 12160.8,
+    "total_return": 21.61,
+    "max_drawdown": 4.65,
+    "sharpe_ratio": 1.42,
+    "win_rate": 100.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": true,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "VLO_EARNINGS_CALL_SPREAD",
+      "AMD_EARNINGS_CALL_SPREAD",
+      "MPC_EARNINGS_CALL_SPREAD",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "very_conservative_wide_small_all_enabled",
+    "risk_scenario": "very_conservative",
+    "strike_scenario": "wide",
+    "sizing_scenario": "small",
+    "strategy_scenario": "all_enabled",
+    "risk_params": {
+      "max_position_loss_pct": 0.025,
+      "max_aggregate_premium_pct": 0.1,
+      "circuit_breaker_weekly_drawdown": 0.03
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_128_very_conservative_wide_small_high_conviction.yaml",
+    "final_nav": 12160.8,
+    "total_return": 21.61,
+    "max_drawdown": 4.65,
+    "sharpe_ratio": 1.42,
+    "win_rate": 100.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": true,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "VLO_EARNINGS_CALL_SPREAD",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "very_conservative_wide_small_high_conviction",
+    "risk_scenario": "very_conservative",
+    "strike_scenario": "wide",
+    "sizing_scenario": "small",
+    "strategy_scenario": "high_conviction",
+    "risk_params": {
+      "max_position_loss_pct": 0.025,
+      "max_aggregate_premium_pct": 0.1,
+      "circuit_breaker_weekly_drawdown": 0.03
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_129_very_conservative_wide_small_msft_only.yaml",
+    "final_nav": 12160.8,
+    "total_return": 21.61,
+    "max_drawdown": 4.65,
+    "sharpe_ratio": 1.42,
+    "win_rate": 100.0,
+    "num_trades": 1,
+    "circuit_breaker_hit": true,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT"
+    ],
+    "config_name": "very_conservative_wide_small_msft_only",
+    "risk_scenario": "very_conservative",
+    "strike_scenario": "wide",
+    "sizing_scenario": "small",
+    "strategy_scenario": "msft_only",
+    "risk_params": {
+      "max_position_loss_pct": 0.025,
+      "max_aggregate_premium_pct": 0.1,
+      "circuit_breaker_weekly_drawdown": 0.03
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_130_very_conservative_wide_normal_all_enabled.yaml",
+    "final_nav": 10000.0,
+    "total_return": 0.0,
+    "max_drawdown": 0.0,
+    "sharpe_ratio": 0.0,
+    "win_rate": 0.0,
+    "num_trades": 0,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "VLO_EARNINGS_CALL_SPREAD",
+      "MSFT_EARNINGS_CALL_SPREAD",
+      "AMD_EARNINGS_CALL_SPREAD",
+      "MPC_EARNINGS_CALL_SPREAD",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "very_conservative_wide_normal_all_enabled",
+    "risk_scenario": "very_conservative",
+    "strike_scenario": "wide",
+    "sizing_scenario": "normal",
+    "strategy_scenario": "all_enabled",
+    "risk_params": {
+      "max_position_loss_pct": 0.025,
+      "max_aggregate_premium_pct": 0.1,
+      "circuit_breaker_weekly_drawdown": 0.03
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_131_very_conservative_wide_normal_high_conviction.yaml",
+    "final_nav": 10000.0,
+    "total_return": 0.0,
+    "max_drawdown": 0.0,
+    "sharpe_ratio": 0.0,
+    "win_rate": 0.0,
+    "num_trades": 0,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "VLO_EARNINGS_CALL_SPREAD",
+      "MSFT_EARNINGS_CALL_SPREAD",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "very_conservative_wide_normal_high_conviction",
+    "risk_scenario": "very_conservative",
+    "strike_scenario": "wide",
+    "sizing_scenario": "normal",
+    "strategy_scenario": "high_conviction",
+    "risk_params": {
+      "max_position_loss_pct": 0.025,
+      "max_aggregate_premium_pct": 0.1,
+      "circuit_breaker_weekly_drawdown": 0.03
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_132_very_conservative_wide_normal_msft_only.yaml",
+    "final_nav": 10000.0,
+    "total_return": 0.0,
+    "max_drawdown": 0.0,
+    "sharpe_ratio": 0.0,
+    "win_rate": 0.0,
+    "num_trades": 0,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "MSFT_EARNINGS_CALL_SPREAD"
+    ],
+    "config_name": "very_conservative_wide_normal_msft_only",
+    "risk_scenario": "very_conservative",
+    "strike_scenario": "wide",
+    "sizing_scenario": "normal",
+    "strategy_scenario": "msft_only",
+    "risk_params": {
+      "max_position_loss_pct": 0.025,
+      "max_aggregate_premium_pct": 0.1,
+      "circuit_breaker_weekly_drawdown": 0.03
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_133_very_conservative_wide_large_all_enabled.yaml",
+    "final_nav": 10000.0,
+    "total_return": 0.0,
+    "max_drawdown": 0.0,
+    "sharpe_ratio": 0.0,
+    "win_rate": 0.0,
+    "num_trades": 0,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "VLO_EARNINGS_CALL_SPREAD",
+      "MSFT_EARNINGS_CALL_SPREAD",
+      "AMD_EARNINGS_CALL_SPREAD",
+      "MPC_EARNINGS_CALL_SPREAD",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "very_conservative_wide_large_all_enabled",
+    "risk_scenario": "very_conservative",
+    "strike_scenario": "wide",
+    "sizing_scenario": "large",
+    "strategy_scenario": "all_enabled",
+    "risk_params": {
+      "max_position_loss_pct": 0.025,
+      "max_aggregate_premium_pct": 0.1,
+      "circuit_breaker_weekly_drawdown": 0.03
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_134_very_conservative_wide_large_high_conviction.yaml",
+    "final_nav": 10000.0,
+    "total_return": 0.0,
+    "max_drawdown": 0.0,
+    "sharpe_ratio": 0.0,
+    "win_rate": 0.0,
+    "num_trades": 0,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "VLO_EARNINGS_CALL_SPREAD",
+      "MSFT_EARNINGS_CALL_SPREAD",
+      "KRE_BANKS_CALL_SPREAD"
+    ],
+    "config_name": "very_conservative_wide_large_high_conviction",
+    "risk_scenario": "very_conservative",
+    "strike_scenario": "wide",
+    "sizing_scenario": "large",
+    "strategy_scenario": "high_conviction",
+    "risk_params": {
+      "max_position_loss_pct": 0.025,
+      "max_aggregate_premium_pct": 0.1,
+      "circuit_breaker_weekly_drawdown": 0.03
+    }
+  },
+  {
+    "success": true,
+    "config_file": "config\\temp_optimization\\config_135_very_conservative_wide_large_msft_only.yaml",
+    "final_nav": 10000.0,
+    "total_return": 0.0,
+    "max_drawdown": 0.0,
+    "sharpe_ratio": 0.0,
+    "win_rate": 0.0,
+    "num_trades": 0,
+    "circuit_breaker_hit": false,
+    "blocked_trades": [
+      "SPY_PROTECTIVE_PUT",
+      "MSFT_EARNINGS_CALL_SPREAD"
+    ],
+    "config_name": "very_conservative_wide_large_msft_only",
+    "risk_scenario": "very_conservative",
+    "strike_scenario": "wide",
+    "sizing_scenario": "large",
+    "strategy_scenario": "msft_only",
+    "risk_params": {
+      "max_position_loss_pct": 0.025,
+      "max_aggregate_premium_pct": 0.1,
+      "circuit_breaker_weekly_drawdown": 0.03
+    }
+  }
+]
